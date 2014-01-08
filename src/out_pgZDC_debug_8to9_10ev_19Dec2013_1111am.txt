@@ -1,0 +1,2121 @@
+Internal FlatRandomEGun is initialzed
+
+============================================================================
+ZdcTestAnalysis:: Initialized as observer
+ Step Ntuple will be created
+ Step Ntuple file: stepNtuple_debug.root
+ Event Ntuple will be created
+ Step Ntuple file: stepNtuple_debug.root
+============================================================================
+
+TimeReport> Report activated
+TimeReport> Report columns headings for events: eventnum runnum timetaken
+TimeReport> Report columns headings for modules: eventnum runnum modulelabel modulename timetakeni
+TimeReport> JobTime=1.38747e+09 JobCPU=5.40918
+
+%MSG-e Specific:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:33 EST  Run: 1
+Could not process q-name of a DDLogicalPart, reason:
+No regex-match for namespace=  name=CALO
+
+SpecPar selection is:
+//CALO
+
+%MSG
+%MSG-i CaloSim:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:33 EST  Run: 1
+CaloSD: Minimum energy of track for saving it 1 GeV
+        Use of HitID Map 0
+        Check last 25 before saving the hit
+        Correct TOF globally by 0 ns (Flag =0)
+        Save hits recorded before 2000 ns and if energy is above 0 MeV (for depth 0) or 0 MeV (for nonzero depths); Time Slice Unit 1 Ignore TrackID Flag 0
+%MSG
+ForwardSimZdcSD: updates numbering scheme for ZDCHITS
+ForwardSim***************************************************
+*                                                 *
+* Constructing a ZdcSD  with name ZDCHITS   *
+*                                                 *
+***************************************************
+ForwardSim
+Use of shower library is set to 1
+Use of Shower hits method is set to 0
+ForwardSim
+Energy Threshold Cut set to 10 (GeV)
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:33 EST Run: 1
+
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:33 EST Run: 1
+<<< Geant4 Physics List engine packaging library: PACK 5.5
+
+%MSG
+%MSG-i PhysicsList:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:33 EST  Run: 1
+You are using the simulation engine: QGSP_FTFP_BERT_EML 3.3 with Flags for EM Physics 1, for Hadronic Physics 1 and tracking cut 1 with special region  
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:33 EST Run: 1
+ New QGSPCMS_FTFP_BERT physics list, replaces LEP with FTF/P for p/n/pi (/K?)  Thresholds: 
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:33 EST Run: 1
+    1) between BERT  and FTF/P over the interval 6 to 8 GeV. 
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:33 EST Run: 1
+    2) between FTF/P and QGS/P over the interval 12 to 25 GeV. 
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:33 EST Run: 1
+  -- quasiElastic was asked to be 1
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:33 EST Run: 1
+     Changed to 1 for QGS  and to 0 (must be false) for FTF
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+============================================================================================
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+             HADRONIC PROCESSES SUMMARY (verbose level 1)
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                     Hadronic Processes for <anti_neutron>
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+          hadElastic  Models:              hElasticLHEP: Emin(GeV)=     0  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+AntiNeutronInelastic  Models:  G4LEAntiNeutronInelastic: Emin(GeV)=     0  Emax(GeV)= 25
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                               G4HEAntiNeutronInelastic: Emin(GeV)=    20  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                     Hadronic Processes for <anti_proton>
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+          hadElastic  Models:              hElasticLHEP: Emin(GeV)=     0  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+ AntiProtonInelastic  Models:   G4LEAntiProtonInelastic: Emin(GeV)=     0  Emax(GeV)= 25
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                G4HEAntiProtonInelastic: Emin(GeV)=    20  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                     Hadronic Processes for <e->
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+      ElectroNuclear  Models:                     CHIPS: Emin(GeV)=     0  Emax(GeV)= 30000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                     Hadronic Processes for <gamma>
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+     PhotonInelastic  Models:                     CHIPS: Emin(GeV)=     0  Emax(GeV)= 3.5
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                        TheoFSGenerator: Emin(GeV)=     3  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                     Hadronic Processes for <kaon+>
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+          hadElastic  Models:              hElasticLHEP: Emin(GeV)=     0  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+   KaonPlusInelastic  Models:                      QGSP: Emin(GeV)=    12  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                                   FTFP: Emin(GeV)=     6  Emax(GeV)= 25
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                        Bertini Cascade: Emin(GeV)=     0  Emax(GeV)= 8
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                     Hadronic Processes for <kaon->
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+          hadElastic  Models:              hElasticLHEP: Emin(GeV)=     0  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+  KaonMinusInelastic  Models:                      QGSP: Emin(GeV)=    12  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                                   FTFP: Emin(GeV)=     6  Emax(GeV)= 25
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                        Bertini Cascade: Emin(GeV)=     0  Emax(GeV)= 8
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                     Hadronic Processes for <lambda>
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+          hadElastic  Models:              hElasticLHEP: Emin(GeV)=     0  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+     LambdaInelastic  Models:       G4LELambdaInelastic: Emin(GeV)=     0  Emax(GeV)= 25
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                    G4HELambdaInelastic: Emin(GeV)=    20  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                     Hadronic Processes for <mu->
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+          muMinusCaptureAtRest
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                     Hadronic Processes for <neutron>
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+          hadElastic  Models:             hElasticCHIPS: Emin(GeV)=     0  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+    NeutronInelastic  Models:                      QGSP: Emin(GeV)=    12  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                                   FTFP: Emin(GeV)=     6  Emax(GeV)= 25
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                        Bertini Cascade: Emin(GeV)=     0  Emax(GeV)= 8
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+            nCapture  Models:                G4LCapture: Emin(GeV)=     0  Emax(GeV)= 20000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+            nFission  Models:                G4LFission: Emin(GeV)=     0  Emax(GeV)= 20000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                     Hadronic Processes for <pi+>
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+          hadElastic  Models:              hElasticLHEP: Emin(GeV)=     0  Emax(GeV)= 1
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                        hElasticGlauber: Emin(GeV)=     1  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+   PionPlusInelastic  Models:                      QGSP: Emin(GeV)=    12  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                                   FTFP: Emin(GeV)=     6  Emax(GeV)= 25
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                        Bertini Cascade: Emin(GeV)=     0  Emax(GeV)= 8
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                     Hadronic Processes for <pi->
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+          hadElastic  Models:              hElasticLHEP: Emin(GeV)=     0  Emax(GeV)= 1
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                        hElasticGlauber: Emin(GeV)=     1  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+  PionMinusInelastic  Models:                      QGSP: Emin(GeV)=    12  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                                   FTFP: Emin(GeV)=     6  Emax(GeV)= 25
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                        Bertini Cascade: Emin(GeV)=     0  Emax(GeV)= 8
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                     Hadronic Processes for <proton>
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+          hadElastic  Models:             hElasticCHIPS: Emin(GeV)=     0  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+     ProtonInelastic  Models:                      QGSP: Emin(GeV)=    12  Emax(GeV)= 100000
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                                   FTFP: Emin(GeV)=     6  Emax(GeV)= 25
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+                                        Bertini Cascade: Emin(GeV)=     0  Emax(GeV)= 8
+
+%MSG
+%MSG-i G4cout:  OscarProducer:g4SimHits@beginRun 19-Dec-2013 11:11:35 EST Run: 1
+============================================================================================
+
+%MSG
+ ZdcTestAnalysis:  beginning of job
+
+ZdcTestAnalysis: Begining of Run
+ZDCTestAnalysis: output step file created
+ZDCTestAnalysis: output event file created
+Begin processing the 1st record. Run 1, Event 1, LumiSection 1 at 19-Dec-2013 11:11:35.118 EST
+TimeModule> 1 1 generator FlatRandomEGunProducer 0.000529051
+TimeModule> 1 1 randomEngineStateProducer RandomEngineStateProducer 0.000125885
+TimeModule> 1 1 VtxSmeared FlatEvtVtxGenerator 0.000293016
+TimeModule> 1 1 genParticles GenParticleProducer 0.000426054
+TimeModule> 1 1 genParticlesForJets InputGenJetsParticleSelector 0.000313044
+TimeModule> 1 1 kt4GenJets FastjetJetProducer 0.000710964
+TimeModule> 1 1 kt6GenJets FastjetJetProducer 3.60012e-05
+TimeModule> 1 1 iterativeCone5GenJets FastjetJetProducer 0.000109911
+TimeModule> 1 1 ak5GenJets FastjetJetProducer 3.50475e-05
+TimeModule> 1 1 ak7GenJets FastjetJetProducer 3.40939e-05
+TimeModule> 1 1 genCandidatesForMET InputGenJetsParticleSelector 2.21729e-05
+TimeModule> 1 1 genParticlesForMETAllVisible InputGenJetsParticleSelector 2.09808e-05
+TimeModule> 1 1 genMetCalo METProducer 0.000195026
+TimeModule> 1 1 genMetCaloAndNonPrompt METProducer 2.7895e-05
+TimeModule> 1 1 genMetTrue METProducer 5.19753e-05
+TimeModule> 1 1 genMetIC5GenJets METProducer 0.000256062
+TimeModule> 1 1 LHCTransport HectorProducer 0.0022769
+ZdcTest: Processing Event Number: 0
+ ZdcTestAnalysis:  Step 1100,0
+ ZdcTestAnalysis:  hd=0 0,DDDWorld,ZDCWorld,Air
+ ZdcTestAnalysis:  Step 400,0
+ ZdcTestAnalysis:   GHD 0: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis: pvtype=0 hd=1 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 1,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 2,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 2,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 3,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 3,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 4,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 4,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 5,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 5,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 6,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 6,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 7,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 7,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 8,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 8,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 9,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 9,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 10,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 10,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 11,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 11,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 12,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 12,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 13,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 13,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 14,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 14,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 15,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 15,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 16,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 16,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 17,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 17,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 18,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 18,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 19,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 19,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 20,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 20,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 21,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 21,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 22,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 22,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 23,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 23,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 24,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 24,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 25,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 25,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 26,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 26,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 27,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 27,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 28,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 28,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 29,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 29,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 30,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 30,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 31,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 31,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 32,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 32,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 33,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 1,0
+ ZdcTestAnalysis:   GHD 0: 33,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 47.5,0
+ ZdcTestAnalysis:   GHD 0: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis: pvtype=0 hd=1 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 10,0
+ ZdcTestAnalysis:   GHD 0: 10,ZDC_FlowLayer,ZDC_FlowLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis: pvtype=0 hd=2 10,ZDC_FlowLayer,ZDC_FlowLayer,Air
+ ZdcTestAnalysis:  Step 85.8289,0
+ ZdcTestAnalysis:   GHD 0: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis: pvtype=0 hd=1 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 21.9169,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_HadAbsorber,ZDC_HadAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 1,ZDC_HadLayer,ZDC_HadLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 0.188593,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_HadLayer,ZDC_HadLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ZdcSDZdcSD: Problem with primaryID **** set by force to TkID **** 1
+ForwardSim ----------------New track------------------------------
+Incident EnergyTrack: 99063 MeV 
+Zdc Cut Energy for Hits: 10000 MeV 
+ZdcSD::getFromLibrary 0 hits for ZDCHITS of 1 with neutron of 99063 MeV
+
+HcalZDCDetID::HcalZDCDetId: id_ 54010021, section: 1, channel: 1 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010022, section: 1, channel: 2 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010023, section: 1, channel: 3 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010024, section: 1, channel: 4 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010025, section: 1, channel: 5 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010081, section: 4, channel: 1 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010082, section: 4, channel: 2 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010083, section: 4, channel: 3 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010084, section: 4, channel: 4 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010085, section: 4, channel: 5 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010086, section: 4, channel: 6 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010087, section: 4, channel: 7 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010088, section: 4, channel: 8 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010089, section: 4, channel: 9 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008a, section: 4, channel: 10 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008b, section: 4, channel: 11 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008c, section: 4, channel: 12 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008d, section: 4, channel: 13 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008e, section: 4, channel: 14 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008f, section: 4, channel: 15 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010090, section: 4, channel: 16 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010041, section: 2, channel: 1 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010042, section: 2, channel: 2 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010043, section: 2, channel: 3 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010044, section: 2, channel: 4 z 0
+ForwardSimZdcSD: Final Hit number:0-->New HitID: 1409351713 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 0 New HitEntryPoint: (-38.4,0,-447.775) New IncidentEnergy: 99.063 New HitPosition: (-38.4,0,-140448)
+ForwardSimZdcSD: Final Hit number:1-->New HitID: 1409351714 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 0 New HitEntryPoint: (-19.2,0,-447.775) New IncidentEnergy: 99.063 New HitPosition: (-19.2,0,-140448)
+ForwardSimZdcSD: Final Hit number:2-->New HitID: 1409351715 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 17.755 New HitEntryPoint: (3.8147e-07,0,-447.775) New IncidentEnergy: 99.063 New HitPosition: (3.8147e-07,0,-140448)
+ForwardSimZdcSD: Final Hit number:3-->New HitID: 1409351716 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 0 New HitEntryPoint: (19.2,0,-447.775) New IncidentEnergy: 99.063 New HitPosition: (19.2,0,-140448)
+ForwardSimZdcSD: Final Hit number:4-->New HitID: 1409351717 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 0 New HitEntryPoint: (38.4,0,-447.775) New IncidentEnergy: 99.063 New HitPosition: (38.4,0,-140448)
+ForwardSimZdcSD: Final Hit number:5-->New HitID: 1409351809 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 51.863 New HitEntryPoint: (-12.875,43.125,-353.5) New IncidentEnergy: 99.063 New HitPosition: (-12.875,43.125,-140354)
+ForwardSimZdcSD: Final Hit number:6-->New HitID: 1409351810 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 122.273 New HitEntryPoint: (12.125,43.125,-353.5) New IncidentEnergy: 99.063 New HitPosition: (12.125,43.125,-140354)
+ForwardSimZdcSD: Final Hit number:7-->New HitID: 1409351811 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 167.989 New HitEntryPoint: (37.125,43.125,-353.5) New IncidentEnergy: 99.063 New HitPosition: (37.125,43.125,-140354)
+ForwardSimZdcSD: Final Hit number:8-->New HitID: 1409351812 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 57.772 New HitEntryPoint: (12.5,43.125,-353.5) New IncidentEnergy: 99.063 New HitPosition: (12.5,43.125,-140354)
+ForwardSimZdcSD: Final Hit number:9-->New HitID: 1409351813 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 113.116 New HitEntryPoint: (-12.875,13.125,-353.5) New IncidentEnergy: 99.063 New HitPosition: (-12.875,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:10-->New HitID: 1409351814 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 110.134 New HitEntryPoint: (12.125,13.125,-353.5) New IncidentEnergy: 99.063 New HitPosition: (12.125,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:11-->New HitID: 1409351815 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 89.679 New HitEntryPoint: (37.125,13.125,-353.5) New IncidentEnergy: 99.063 New HitPosition: (37.125,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:12-->New HitID: 1409351816 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 125.94 New HitEntryPoint: (12.5,13.125,-353.5) New IncidentEnergy: 99.063 New HitPosition: (12.5,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:13-->New HitID: 1409351817 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 96.499 New HitEntryPoint: (-12.875,13.125,-353.5) New IncidentEnergy: 99.063 New HitPosition: (-12.875,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:14-->New HitID: 1409351818 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 141.457 New HitEntryPoint: (12.125,-16.875,-353.5) New IncidentEnergy: 99.063 New HitPosition: (12.125,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:15-->New HitID: 1409351819 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 119.75 New HitEntryPoint: (37.125,-16.875,-353.5) New IncidentEnergy: 99.063 New HitPosition: (37.125,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:16-->New HitID: 1409351820 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 77.001 New HitEntryPoint: (12.5,-16.875,-353.5) New IncidentEnergy: 99.063 New HitPosition: (12.5,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:17-->New HitID: 1409351821 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 120.415 New HitEntryPoint: (-12.875,-16.875,-353.5) New IncidentEnergy: 99.063 New HitPosition: (-12.875,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:18-->New HitID: 1409351822 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 60.415 New HitEntryPoint: (12.125,-16.875,-353.5) New IncidentEnergy: 99.063 New HitPosition: (12.125,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:19-->New HitID: 1409351823 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 178.164 New HitEntryPoint: (37.125,-46.875,-353.5) New IncidentEnergy: 99.063 New HitPosition: (37.125,-46.875,-140354)
+ForwardSimZdcSD: Final Hit number:20-->New HitID: 1409351824 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 179.577 New HitEntryPoint: (12.5,-46.875,-353.5) New IncidentEnergy: 99.063 New HitPosition: (12.5,-46.875,-140354)
+ForwardSimZdcSD: Final Hit number:21-->New HitID: 1409351745 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 124.551 New HitEntryPoint: (0,0,-327) New IncidentEnergy: 99.063 New HitPosition: (0,0,-140327)
+ForwardSimZdcSD: Final Hit number:22-->New HitID: 1409351746 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 38.149 New HitEntryPoint: (0,0,-187.8) New IncidentEnergy: 99.063 New HitPosition: (0,0,-140188)
+ForwardSimZdcSD: Final Hit number:23-->New HitID: 1409351747 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 21.392 New HitEntryPoint: (0,0,-48.6) New IncidentEnergy: 99.063 New HitPosition: (0,0,-140049)
+ForwardSimZdcSD: Final Hit number:24-->New HitID: 1409351748 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 11.875 New HitEntryPoint: (0,0,90.6) New IncidentEnergy: 99.063 New HitPosition: (0,0,-139909)
+ ZdcTestAnalysis:  Step 0.895073,0
+ ZdcTestAnalysis:   GHD 0: 58,ZDC_HadFiber,ZDC_HadFiber,quartz
+ ZdcTestAnalysis:   GHD 1: 1,ZDC_HadLayer,ZDC_HadLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+
+ZdcTest::upDate(const EndOfEvent * evt) - event #1
+  # of aSteps followed in event = 74
+  ZdcTestAnalysis:  accessed all HC ZdcTestAnalysis:  - theZDCHCid = 0 ZdcTestAnalysis:  - theZDCHC = 0x2afa9b08d400
+Creating ZDCNumberingScheme
+ ZdcTestAnalysis:   theZDCHC has 21 entries
+ ZdcTestAnalysis:  entry #0: fiberID=0x54010023; enEm=0; enHad=17755; hitEnergy=17755z=-140448
+ZDC unpacking: idx:1409351715 -> section 3 layer 4 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  4 fiber 64 channel 0 zside 1idx: 65571
+ZDC packing result after unpacking and repacking: section 3 layer  4 fiber 64 channel 0 zside 1 new idx: 65571
+ZDC unpacking: idx:1409351715 -> section 3 layer 4 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  4 fiber 64 channel 0 zside 1idx: 65571
+ZDC packing result after unpacking and repacking: section 3 layer  4 fiber 64 channel 0 zside 1 new idx: 65571
+ ZdcTestAnalysis:  entry #1: fiberID=0x54010041; enEm=0; enHad=124551; hitEnergy=124551z=-140327
+ZDC unpacking: idx:1409351745 -> section 1 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  8 fiber 64 channel 0 zside 1idx: 65601
+ZDC packing result after unpacking and repacking: section 1 layer  8 fiber 64 channel 0 zside 1 new idx: 65601
+ZDC unpacking: idx:1409351745 -> section 1 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  8 fiber 64 channel 0 zside 1idx: 65601
+ZDC packing result after unpacking and repacking: section 1 layer  8 fiber 64 channel 0 zside 1 new idx: 65601
+ ZdcTestAnalysis:  entry #2: fiberID=0x54010042; enEm=0; enHad=38149; hitEnergy=38149z=-140188
+ZDC unpacking: idx:1409351746 -> section 2 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  8 fiber 64 channel 0 zside 1idx: 65602
+ZDC packing result after unpacking and repacking: section 2 layer  8 fiber 64 channel 0 zside 1 new idx: 65602
+ZDC unpacking: idx:1409351746 -> section 2 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  8 fiber 64 channel 0 zside 1idx: 65602
+ZDC packing result after unpacking and repacking: section 2 layer  8 fiber 64 channel 0 zside 1 new idx: 65602
+ ZdcTestAnalysis:  entry #3: fiberID=0x54010043; enEm=0; enHad=21392; hitEnergy=21392z=-140049
+ZDC unpacking: idx:1409351747 -> section 3 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  8 fiber 64 channel 0 zside 1idx: 65603
+ZDC packing result after unpacking and repacking: section 3 layer  8 fiber 64 channel 0 zside 1 new idx: 65603
+ZDC unpacking: idx:1409351747 -> section 3 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  8 fiber 64 channel 0 zside 1idx: 65603
+ZDC packing result after unpacking and repacking: section 3 layer  8 fiber 64 channel 0 zside 1 new idx: 65603
+ ZdcTestAnalysis:  entry #4: fiberID=0x54010044; enEm=0; enHad=11875; hitEnergy=11875z=-139909
+ZDC unpacking: idx:1409351748 -> section 4 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  8 fiber 64 channel 0 zside 1idx: 65604
+ZDC packing result after unpacking and repacking: section 4 layer  8 fiber 64 channel 0 zside 1 new idx: 65604
+ZDC unpacking: idx:1409351748 -> section 4 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  8 fiber 64 channel 0 zside 1idx: 65604
+ZDC packing result after unpacking and repacking: section 4 layer  8 fiber 64 channel 0 zside 1 new idx: 65604
+ ZdcTestAnalysis:  entry #5: fiberID=0x54010081; enEm=0; enHad=51863; hitEnergy=51863z=-140354
+ZDC unpacking: idx:1409351809 -> section 1 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  16 fiber 64 channel 0 zside 1idx: 65665
+ZDC packing result after unpacking and repacking: section 1 layer  16 fiber 64 channel 0 zside 1 new idx: 65665
+ZDC unpacking: idx:1409351809 -> section 1 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  16 fiber 64 channel 0 zside 1idx: 65665
+ZDC packing result after unpacking and repacking: section 1 layer  16 fiber 64 channel 0 zside 1 new idx: 65665
+ ZdcTestAnalysis:  entry #6: fiberID=0x54010082; enEm=0; enHad=122273; hitEnergy=122273z=-140354
+ZDC unpacking: idx:1409351810 -> section 2 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  16 fiber 64 channel 0 zside 1idx: 65666
+ZDC packing result after unpacking and repacking: section 2 layer  16 fiber 64 channel 0 zside 1 new idx: 65666
+ZDC unpacking: idx:1409351810 -> section 2 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  16 fiber 64 channel 0 zside 1idx: 65666
+ZDC packing result after unpacking and repacking: section 2 layer  16 fiber 64 channel 0 zside 1 new idx: 65666
+ ZdcTestAnalysis:  entry #7: fiberID=0x54010083; enEm=0; enHad=167989; hitEnergy=167989z=-140354
+ZDC unpacking: idx:1409351811 -> section 3 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  16 fiber 64 channel 0 zside 1idx: 65667
+ZDC packing result after unpacking and repacking: section 3 layer  16 fiber 64 channel 0 zside 1 new idx: 65667
+ZDC unpacking: idx:1409351811 -> section 3 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  16 fiber 64 channel 0 zside 1idx: 65667
+ZDC packing result after unpacking and repacking: section 3 layer  16 fiber 64 channel 0 zside 1 new idx: 65667
+ ZdcTestAnalysis:  entry #8: fiberID=0x54010084; enEm=0; enHad=57772; hitEnergy=57772z=-140354
+ZDC unpacking: idx:1409351812 -> section 4 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  16 fiber 64 channel 0 zside 1idx: 65668
+ZDC packing result after unpacking and repacking: section 4 layer  16 fiber 64 channel 0 zside 1 new idx: 65668
+ZDC unpacking: idx:1409351812 -> section 4 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  16 fiber 64 channel 0 zside 1idx: 65668
+ZDC packing result after unpacking and repacking: section 4 layer  16 fiber 64 channel 0 zside 1 new idx: 65668
+ ZdcTestAnalysis:  entry #9: fiberID=0x54010085; enEm=0; enHad=113116; hitEnergy=113116z=-140354
+ZDC unpacking: idx:1409351813 -> section 5 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 5 layer  16 fiber 64 channel 0 zside 1idx: 65669
+ZDC packing result after unpacking and repacking: section 5 layer  16 fiber 64 channel 0 zside 1 new idx: 65669
+ZDC unpacking: idx:1409351813 -> section 5 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 5 layer  16 fiber 64 channel 0 zside 1idx: 65669
+ZDC packing result after unpacking and repacking: section 5 layer  16 fiber 64 channel 0 zside 1 new idx: 65669
+ ZdcTestAnalysis:  entry #10: fiberID=0x54010086; enEm=0; enHad=110134; hitEnergy=110134z=-140354
+ZDC unpacking: idx:1409351814 -> section 6 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 6 layer  16 fiber 64 channel 0 zside 1idx: 65670
+ZDC packing result after unpacking and repacking: section 6 layer  16 fiber 64 channel 0 zside 1 new idx: 65670
+ZDC unpacking: idx:1409351814 -> section 6 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 6 layer  16 fiber 64 channel 0 zside 1idx: 65670
+ZDC packing result after unpacking and repacking: section 6 layer  16 fiber 64 channel 0 zside 1 new idx: 65670
+ ZdcTestAnalysis:  entry #11: fiberID=0x54010087; enEm=0; enHad=89679; hitEnergy=89679z=-140354
+ZDC unpacking: idx:1409351815 -> section 7 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 7 layer  16 fiber 64 channel 0 zside 1idx: 65671
+ZDC packing result after unpacking and repacking: section 7 layer  16 fiber 64 channel 0 zside 1 new idx: 65671
+ZDC unpacking: idx:1409351815 -> section 7 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 7 layer  16 fiber 64 channel 0 zside 1idx: 65671
+ZDC packing result after unpacking and repacking: section 7 layer  16 fiber 64 channel 0 zside 1 new idx: 65671
+ ZdcTestAnalysis:  entry #12: fiberID=0x54010088; enEm=0; enHad=125940; hitEnergy=125940z=-140354
+ZDC unpacking: idx:1409351816 -> section 0 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 0 layer  17 fiber 64 channel 0 zside 1idx: 65672
+ZDC packing result after unpacking and repacking: section 0 layer  17 fiber 64 channel 0 zside 1 new idx: 65672
+ZDC unpacking: idx:1409351816 -> section 0 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 0 layer  17 fiber 64 channel 0 zside 1idx: 65672
+ZDC packing result after unpacking and repacking: section 0 layer  17 fiber 64 channel 0 zside 1 new idx: 65672
+ ZdcTestAnalysis:  entry #13: fiberID=0x54010089; enEm=0; enHad=96499; hitEnergy=96499z=-140354
+ZDC unpacking: idx:1409351817 -> section 1 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  17 fiber 64 channel 0 zside 1idx: 65673
+ZDC packing result after unpacking and repacking: section 1 layer  17 fiber 64 channel 0 zside 1 new idx: 65673
+ZDC unpacking: idx:1409351817 -> section 1 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  17 fiber 64 channel 0 zside 1idx: 65673
+ZDC packing result after unpacking and repacking: section 1 layer  17 fiber 64 channel 0 zside 1 new idx: 65673
+ ZdcTestAnalysis:  entry #14: fiberID=0x5401008a; enEm=0; enHad=141457; hitEnergy=141457z=-140354
+ZDC unpacking: idx:1409351818 -> section 2 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  17 fiber 64 channel 0 zside 1idx: 65674
+ZDC packing result after unpacking and repacking: section 2 layer  17 fiber 64 channel 0 zside 1 new idx: 65674
+ZDC unpacking: idx:1409351818 -> section 2 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  17 fiber 64 channel 0 zside 1idx: 65674
+ZDC packing result after unpacking and repacking: section 2 layer  17 fiber 64 channel 0 zside 1 new idx: 65674
+ ZdcTestAnalysis:  entry #15: fiberID=0x5401008b; enEm=0; enHad=119750; hitEnergy=119750z=-140354
+ZDC unpacking: idx:1409351819 -> section 3 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  17 fiber 64 channel 0 zside 1idx: 65675
+ZDC packing result after unpacking and repacking: section 3 layer  17 fiber 64 channel 0 zside 1 new idx: 65675
+ZDC unpacking: idx:1409351819 -> section 3 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  17 fiber 64 channel 0 zside 1idx: 65675
+ZDC packing result after unpacking and repacking: section 3 layer  17 fiber 64 channel 0 zside 1 new idx: 65675
+ ZdcTestAnalysis:  entry #16: fiberID=0x5401008c; enEm=0; enHad=77001; hitEnergy=77001z=-140354
+ZDC unpacking: idx:1409351820 -> section 4 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  17 fiber 64 channel 0 zside 1idx: 65676
+ZDC packing result after unpacking and repacking: section 4 layer  17 fiber 64 channel 0 zside 1 new idx: 65676
+ZDC unpacking: idx:1409351820 -> section 4 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  17 fiber 64 channel 0 zside 1idx: 65676
+ZDC packing result after unpacking and repacking: section 4 layer  17 fiber 64 channel 0 zside 1 new idx: 65676
+ ZdcTestAnalysis:  entry #17: fiberID=0x5401008d; enEm=0; enHad=120415; hitEnergy=120415z=-140354
+ZDC unpacking: idx:1409351821 -> section 5 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 5 layer  17 fiber 64 channel 0 zside 1idx: 65677
+ZDC packing result after unpacking and repacking: section 5 layer  17 fiber 64 channel 0 zside 1 new idx: 65677
+ZDC unpacking: idx:1409351821 -> section 5 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 5 layer  17 fiber 64 channel 0 zside 1idx: 65677
+ZDC packing result after unpacking and repacking: section 5 layer  17 fiber 64 channel 0 zside 1 new idx: 65677
+ ZdcTestAnalysis:  entry #18: fiberID=0x5401008e; enEm=0; enHad=60415; hitEnergy=60415z=-140354
+ZDC unpacking: idx:1409351822 -> section 6 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 6 layer  17 fiber 64 channel 0 zside 1idx: 65678
+ZDC packing result after unpacking and repacking: section 6 layer  17 fiber 64 channel 0 zside 1 new idx: 65678
+ZDC unpacking: idx:1409351822 -> section 6 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 6 layer  17 fiber 64 channel 0 zside 1idx: 65678
+ZDC packing result after unpacking and repacking: section 6 layer  17 fiber 64 channel 0 zside 1 new idx: 65678
+ ZdcTestAnalysis:  entry #19: fiberID=0x5401008f; enEm=0; enHad=178164; hitEnergy=178164z=-140354
+ZDC unpacking: idx:1409351823 -> section 7 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 7 layer  17 fiber 64 channel 0 zside 1idx: 65679
+ZDC packing result after unpacking and repacking: section 7 layer  17 fiber 64 channel 0 zside 1 new idx: 65679
+ZDC unpacking: idx:1409351823 -> section 7 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 7 layer  17 fiber 64 channel 0 zside 1idx: 65679
+ZDC packing result after unpacking and repacking: section 7 layer  17 fiber 64 channel 0 zside 1 new idx: 65679
+ ZdcTestAnalysis:  entry #20: fiberID=0x54010090; enEm=0; enHad=179577; hitEnergy=179577z=-140354
+ZDC unpacking: idx:1409351824 -> section 0 layer 18 fiber 64 channel 0 zside 1
+ZDC packing: section 0 layer  18 fiber 64 channel 0 zside 1idx: 65680
+ZDC packing result after unpacking and repacking: section 0 layer  18 fiber 64 channel 0 zside 1 new idx: 65680
+ZDC unpacking: idx:1409351824 -> section 0 layer 18 fiber 64 channel 0 zside 1
+ZDC packing: section 0 layer  18 fiber 64 channel 0 zside 1idx: 65680
+ZDC packing result after unpacking and repacking: section 0 layer  18 fiber 64 channel 0 zside 1 new idx: 65680
+ ZdcTestAnalysis:  Event has 2 vertex
+ ZdcTestAnalysis: Vertex number :0
+ ZdcTestAnalysis: Vertex number :1
+  ZdcTestAnalysis:  Event 1
+%MSG-i CaloSim:  OscarProducer:g4SimHits 19-Dec-2013 11:11:35 EST  Run: 1 Event: 1
+CaloSD: ZDCHITS store 21 hits recorded with 0 track IDs not given properly and 4 hits not passing cuts
+%MSG
+TimeModule> 1 1 g4SimHits OscarProducer 0.00892091
+TimeModule> 1 1 MEtoEDMConverter MEtoEDMConverter 5.00679e-06
+TimeModule> 1 1 TriggerResults TriggerResultInserter 3.09944e-05
+TimeModule> 1 1 output PoolOutputModule 0.0104029
+%MSG-w MemoryCheck:  PostProcessPath 19-Dec-2013 11:11:35 EST Run: 1 Event: 1
+MemoryCheck: event : VSIZE 535.488 0 RSS 258.051 0
+
+%MSG
+TimeEvent> 1 1 0.026257 0.024996 0.024996
+Begin processing the 2nd record. Run 1, Event 2, LumiSection 1 at 19-Dec-2013 11:11:35.145 EST
+TimeModule> 2 1 generator FlatRandomEGunProducer 4.69685e-05
+TimeModule> 2 1 randomEngineStateProducer RandomEngineStateProducer 0.000153065
+TimeModule> 2 1 VtxSmeared FlatEvtVtxGenerator 1.90735e-05
+TimeModule> 2 1 genParticles GenParticleProducer 3.09944e-05
+TimeModule> 2 1 genParticlesForJets InputGenJetsParticleSelector 2.09808e-05
+TimeModule> 2 1 kt4GenJets FastjetJetProducer 0.000152111
+TimeModule> 2 1 kt6GenJets FastjetJetProducer 2.59876e-05
+TimeModule> 2 1 iterativeCone5GenJets FastjetJetProducer 3.40939e-05
+TimeModule> 2 1 ak5GenJets FastjetJetProducer 2.59876e-05
+TimeModule> 2 1 ak7GenJets FastjetJetProducer 2.5034e-05
+TimeModule> 2 1 genCandidatesForMET InputGenJetsParticleSelector 1.21593e-05
+TimeModule> 2 1 genParticlesForMETAllVisible InputGenJetsParticleSelector 1.12057e-05
+TimeModule> 2 1 genMetCalo METProducer 2.59876e-05
+TimeModule> 2 1 genMetCaloAndNonPrompt METProducer 1.69277e-05
+TimeModule> 2 1 genMetTrue METProducer 2.19345e-05
+TimeModule> 2 1 genMetIC5GenJets METProducer 1.81198e-05
+TimeModule> 2 1 LHCTransport HectorProducer 0.000302076
+ZdcTest: Processing Event Number: 1
+
+ZdcTest::upDate(const EndOfEvent * evt) - event #2
+  # of aSteps followed in event = 0
+  ZdcTestAnalysis:  accessed all HC ZdcTestAnalysis:  - theZDCHCid = 0 ZdcTestAnalysis:  - theZDCHC = 0x2afa9b08d400
+Creating ZDCNumberingScheme
+ ZdcTestAnalysis:   theZDCHC has 0 entries
+  ZdcTestAnalysis:  Event 2
+%MSG-i CaloSim:  OscarProducer:g4SimHits 19-Dec-2013 11:11:35 EST  Run: 1 Event: 2
+CaloSD: ZDCHITS store 0 hits recorded with 0 track IDs not given properly and 0 hits not passing cuts
+%MSG
+TimeModule> 2 1 g4SimHits OscarProducer 0.000615835
+TimeModule> 2 1 MEtoEDMConverter MEtoEDMConverter 4.05312e-06
+TimeModule> 2 1 TriggerResults TriggerResultInserter 2.00272e-05
+TimeModule> 2 1 output PoolOutputModule 0.00448489
+%MSG-w MemoryCheck:  PostProcessPath 19-Dec-2013 11:11:35 EST Run: 1 Event: 2
+MemoryCheck: event : VSIZE 535.738 0 RSS 258.363 0
+
+%MSG
+TimeEvent> 2 1 0.00708795 0.006999 0.031995
+Begin processing the 3rd record. Run 1, Event 3, LumiSection 1 at 19-Dec-2013 11:11:35.153 EST
+TimeModule> 3 1 generator FlatRandomEGunProducer 2.7895e-05
+TimeModule> 3 1 randomEngineStateProducer RandomEngineStateProducer 7.98702e-05
+TimeModule> 3 1 VtxSmeared FlatEvtVtxGenerator 1.19209e-05
+TimeModule> 3 1 genParticles GenParticleProducer 2.00272e-05
+TimeModule> 3 1 genParticlesForJets InputGenJetsParticleSelector 1.40667e-05
+TimeModule> 3 1 kt4GenJets FastjetJetProducer 4.69685e-05
+TimeModule> 3 1 kt6GenJets FastjetJetProducer 2.5034e-05
+TimeModule> 3 1 iterativeCone5GenJets FastjetJetProducer 2.38419e-05
+TimeModule> 3 1 ak5GenJets FastjetJetProducer 2.5034e-05
+TimeModule> 3 1 ak7GenJets FastjetJetProducer 2.38419e-05
+TimeModule> 3 1 genCandidatesForMET InputGenJetsParticleSelector 1.09673e-05
+TimeModule> 3 1 genParticlesForMETAllVisible InputGenJetsParticleSelector 1.00136e-05
+TimeModule> 3 1 genMetCalo METProducer 1.88351e-05
+TimeModule> 3 1 genMetCaloAndNonPrompt METProducer 1.71661e-05
+TimeModule> 3 1 genMetTrue METProducer 1.71661e-05
+TimeModule> 3 1 genMetIC5GenJets METProducer 2.19345e-05
+TimeModule> 3 1 LHCTransport HectorProducer 0.000236034
+ZdcTest: Processing Event Number: 2
+
+ZdcTest::upDate(const EndOfEvent * evt) - event #3
+  # of aSteps followed in event = 0
+  ZdcTestAnalysis:  accessed all HC ZdcTestAnalysis:  - theZDCHCid = 0 ZdcTestAnalysis:  - theZDCHC = 0x2afa9b08d400
+Creating ZDCNumberingScheme
+ ZdcTestAnalysis:   theZDCHC has 0 entries
+  ZdcTestAnalysis:  Event 3
+%MSG-i CaloSim:  OscarProducer:g4SimHits 19-Dec-2013 11:11:35 EST  Run: 1 Event: 3
+CaloSD: ZDCHITS store 0 hits recorded with 0 track IDs not given properly and 0 hits not passing cuts
+%MSG
+TimeModule> 3 1 g4SimHits OscarProducer 0.000202179
+TimeModule> 3 1 MEtoEDMConverter MEtoEDMConverter 2.86102e-06
+TimeModule> 3 1 TriggerResults TriggerResultInserter 1.40667e-05
+TimeModule> 3 1 output PoolOutputModule 0.00385284
+%MSG-w MemoryCheck:  PostProcessPath 19-Dec-2013 11:11:35 EST Run: 1 Event: 3
+MemoryCheck: event : VSIZE 535.738 0 RSS 258.375 0
+
+%MSG
+TimeEvent> 3 1 0.00570202 0.005999 0.037994
+Begin processing the 4th record. Run 1, Event 4, LumiSection 1 at 19-Dec-2013 11:11:35.159 EST
+TimeModule> 4 1 generator FlatRandomEGunProducer 1.69277e-05
+TimeModule> 4 1 randomEngineStateProducer RandomEngineStateProducer 6.60419e-05
+TimeModule> 4 1 VtxSmeared FlatEvtVtxGenerator 1.00136e-05
+TimeModule> 4 1 genParticles GenParticleProducer 1.5974e-05
+TimeModule> 4 1 genParticlesForJets InputGenJetsParticleSelector 1.19209e-05
+TimeModule> 4 1 kt4GenJets FastjetJetProducer 3.40939e-05
+TimeModule> 4 1 kt6GenJets FastjetJetProducer 2.40803e-05
+TimeModule> 4 1 iterativeCone5GenJets FastjetJetProducer 2.31266e-05
+TimeModule> 4 1 ak5GenJets FastjetJetProducer 2.38419e-05
+TimeModule> 4 1 ak7GenJets FastjetJetProducer 2.38419e-05
+TimeModule> 4 1 genCandidatesForMET InputGenJetsParticleSelector 1.12057e-05
+TimeModule> 4 1 genParticlesForMETAllVisible InputGenJetsParticleSelector 1.09673e-05
+TimeModule> 4 1 genMetCalo METProducer 2.00272e-05
+TimeModule> 4 1 genMetCaloAndNonPrompt METProducer 1.69277e-05
+TimeModule> 4 1 genMetTrue METProducer 1.5974e-05
+TimeModule> 4 1 genMetIC5GenJets METProducer 1.69277e-05
+TimeModule> 4 1 LHCTransport HectorProducer 0.000216007
+ZdcTest: Processing Event Number: 3
+
+ZdcTest::upDate(const EndOfEvent * evt) - event #4
+  # of aSteps followed in event = 0
+  ZdcTestAnalysis:  accessed all HC ZdcTestAnalysis:  - theZDCHCid = 0 ZdcTestAnalysis:  - theZDCHC = 0x2afa9b08d400
+Creating ZDCNumberingScheme
+ ZdcTestAnalysis:   theZDCHC has 0 entries
+  ZdcTestAnalysis:  Event 4
+%MSG-i CaloSim:  OscarProducer:g4SimHits 19-Dec-2013 11:11:35 EST  Run: 1 Event: 4
+CaloSD: ZDCHITS store 0 hits recorded with 0 track IDs not given properly and 0 hits not passing cuts
+%MSG
+TimeModule> 4 1 g4SimHits OscarProducer 0.000166178
+TimeModule> 4 1 MEtoEDMConverter MEtoEDMConverter 3.09944e-06
+TimeModule> 4 1 TriggerResults TriggerResultInserter 1.28746e-05
+TimeModule> 4 1 output PoolOutputModule 0.00378513
+%MSG-w MemoryCheck:  PostProcessPath 19-Dec-2013 11:11:35 EST Run: 1 Event: 4
+MemoryCheck: event : VSIZE 535.738 0 RSS 258.375 0
+
+%MSG
+TimeEvent> 4 1 0.00551391 0.005999 0.043993
+Begin processing the 5th record. Run 1, Event 5, LumiSection 1 at 19-Dec-2013 11:11:35.165 EST
+TimeModule> 5 1 generator FlatRandomEGunProducer 1.81198e-05
+TimeModule> 5 1 randomEngineStateProducer RandomEngineStateProducer 6.48499e-05
+TimeModule> 5 1 VtxSmeared FlatEvtVtxGenerator 9.05991e-06
+TimeModule> 5 1 genParticles GenParticleProducer 1.50204e-05
+TimeModule> 5 1 genParticlesForJets InputGenJetsParticleSelector 1.19209e-05
+TimeModule> 5 1 kt4GenJets FastjetJetProducer 3.60012e-05
+TimeModule> 5 1 kt6GenJets FastjetJetProducer 2.59876e-05
+TimeModule> 5 1 iterativeCone5GenJets FastjetJetProducer 2.31266e-05
+TimeModule> 5 1 ak5GenJets FastjetJetProducer 2.40803e-05
+TimeModule> 5 1 ak7GenJets FastjetJetProducer 2.40803e-05
+TimeModule> 5 1 genCandidatesForMET InputGenJetsParticleSelector 1.00136e-05
+TimeModule> 5 1 genParticlesForMETAllVisible InputGenJetsParticleSelector 1.00136e-05
+TimeModule> 5 1 genMetCalo METProducer 1.69277e-05
+TimeModule> 5 1 genMetCaloAndNonPrompt METProducer 1.5974e-05
+TimeModule> 5 1 genMetTrue METProducer 1.69277e-05
+TimeModule> 5 1 genMetIC5GenJets METProducer 1.40667e-05
+TimeModule> 5 1 LHCTransport HectorProducer 0.000216007
+ZdcTest: Processing Event Number: 4
+
+ZdcTest::upDate(const EndOfEvent * evt) - event #5
+  # of aSteps followed in event = 0
+  ZdcTestAnalysis:  accessed all HC ZdcTestAnalysis:  - theZDCHCid = 0 ZdcTestAnalysis:  - theZDCHC = 0x2afa9b08d400
+Creating ZDCNumberingScheme
+ ZdcTestAnalysis:   theZDCHC has 0 entries
+  ZdcTestAnalysis:  Event 5
+%MSG-i CaloSim:  OscarProducer:g4SimHits 19-Dec-2013 11:11:35 EST  Run: 1 Event: 5
+CaloSD: ZDCHITS store 0 hits recorded with 0 track IDs not given properly and 0 hits not passing cuts
+%MSG
+TimeModule> 5 1 g4SimHits OscarProducer 0.000163794
+TimeModule> 5 1 MEtoEDMConverter MEtoEDMConverter 3.09944e-06
+TimeModule> 5 1 TriggerResults TriggerResultInserter 1.3113e-05
+TimeModule> 5 1 output PoolOutputModule 0.00377893
+%MSG-w MemoryCheck:  PostProcessPath 19-Dec-2013 11:11:35 EST Run: 1 Event: 5
+MemoryCheck: event : VSIZE 535.738 0 RSS 258.375 0
+
+%MSG
+TimeEvent> 5 1 0.00549483 0.005999 0.049992
+Begin processing the 6th record. Run 1, Event 6, LumiSection 1 at 19-Dec-2013 11:11:35.171 EST
+TimeModule> 6 1 generator FlatRandomEGunProducer 2.5034e-05
+TimeModule> 6 1 randomEngineStateProducer RandomEngineStateProducer 6.48499e-05
+TimeModule> 6 1 VtxSmeared FlatEvtVtxGenerator 1.00136e-05
+TimeModule> 6 1 genParticles GenParticleProducer 2.00272e-05
+TimeModule> 6 1 genParticlesForJets InputGenJetsParticleSelector 1.19209e-05
+TimeModule> 6 1 kt4GenJets FastjetJetProducer 2.7895e-05
+TimeModule> 6 1 kt6GenJets FastjetJetProducer 2.40803e-05
+TimeModule> 6 1 iterativeCone5GenJets FastjetJetProducer 2.38419e-05
+TimeModule> 6 1 ak5GenJets FastjetJetProducer 2.38419e-05
+TimeModule> 6 1 ak7GenJets FastjetJetProducer 2.38419e-05
+TimeModule> 6 1 genCandidatesForMET InputGenJetsParticleSelector 1.09673e-05
+TimeModule> 6 1 genParticlesForMETAllVisible InputGenJetsParticleSelector 1.00136e-05
+TimeModule> 6 1 genMetCalo METProducer 1.5974e-05
+TimeModule> 6 1 genMetCaloAndNonPrompt METProducer 1.71661e-05
+TimeModule> 6 1 genMetTrue METProducer 1.69277e-05
+TimeModule> 6 1 genMetIC5GenJets METProducer 1.40667e-05
+TimeModule> 6 1 LHCTransport HectorProducer 0.00012517
+ZdcTest: Processing Event Number: 5
+ ZdcTestAnalysis:  Step 1100,0
+ ZdcTestAnalysis:  hd=0 0,DDDWorld,ZDCWorld,Air
+ ZdcTestAnalysis:  Step 400,0
+ ZdcTestAnalysis:   GHD 0: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis: pvtype=0 hd=1 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 1,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 0.151796,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ZdcSDZdcSD: Problem with primaryID **** set by force to TkID **** 1
+ForwardSim ----------------New track------------------------------
+Incident EnergyTrack: 99065.4 MeV 
+Zdc Cut Energy for Hits: 10000 MeV 
+ZdcSD::getFromLibrary 0 hits for ZDCHITS of 1 with neutron of 99065.4 MeV
+
+HcalZDCDetID::HcalZDCDetId: id_ 54010021, section: 1, channel: 1 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010022, section: 1, channel: 2 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010023, section: 1, channel: 3 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010024, section: 1, channel: 4 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010025, section: 1, channel: 5 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010081, section: 4, channel: 1 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010082, section: 4, channel: 2 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010083, section: 4, channel: 3 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010084, section: 4, channel: 4 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010085, section: 4, channel: 5 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010086, section: 4, channel: 6 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010087, section: 4, channel: 7 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010088, section: 4, channel: 8 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010089, section: 4, channel: 9 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008a, section: 4, channel: 10 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008b, section: 4, channel: 11 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008c, section: 4, channel: 12 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008d, section: 4, channel: 13 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008e, section: 4, channel: 14 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008f, section: 4, channel: 15 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010090, section: 4, channel: 16 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010041, section: 2, channel: 1 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010042, section: 2, channel: 2 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010043, section: 2, channel: 3 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010044, section: 2, channel: 4 z 0
+ForwardSimZdcSD: Final Hit number:0-->New HitID: 1409351713 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 0 New HitEntryPoint: (-38.4,0,-447.775) New IncidentEnergy: 99.0654 New HitPosition: (-38.4,0,-140448)
+ForwardSimZdcSD: Final Hit number:1-->New HitID: 1409351714 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 0 New HitEntryPoint: (-19.2,0,-447.775) New IncidentEnergy: 99.0654 New HitPosition: (-19.2,0,-140448)
+ForwardSimZdcSD: Final Hit number:2-->New HitID: 1409351715 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 25.842 New HitEntryPoint: (3.8147e-07,0,-447.775) New IncidentEnergy: 99.0654 New HitPosition: (3.8147e-07,0,-140448)
+ForwardSimZdcSD: Final Hit number:3-->New HitID: 1409351716 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 0 New HitEntryPoint: (19.2,0,-447.775) New IncidentEnergy: 99.0654 New HitPosition: (19.2,0,-140448)
+ForwardSimZdcSD: Final Hit number:4-->New HitID: 1409351717 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 0 New HitEntryPoint: (38.4,0,-447.775) New IncidentEnergy: 99.0654 New HitPosition: (38.4,0,-140448)
+ForwardSimZdcSD: Final Hit number:5-->New HitID: 1409351809 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 70.658 New HitEntryPoint: (-12.875,43.125,-353.5) New IncidentEnergy: 99.0654 New HitPosition: (-12.875,43.125,-140354)
+ForwardSimZdcSD: Final Hit number:6-->New HitID: 1409351810 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 106.516 New HitEntryPoint: (12.125,43.125,-353.5) New IncidentEnergy: 99.0654 New HitPosition: (12.125,43.125,-140354)
+ForwardSimZdcSD: Final Hit number:7-->New HitID: 1409351811 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 91.49 New HitEntryPoint: (37.125,43.125,-353.5) New IncidentEnergy: 99.0654 New HitPosition: (37.125,43.125,-140354)
+ForwardSimZdcSD: Final Hit number:8-->New HitID: 1409351812 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 83.815 New HitEntryPoint: (12.5,43.125,-353.5) New IncidentEnergy: 99.0654 New HitPosition: (12.5,43.125,-140354)
+ForwardSimZdcSD: Final Hit number:9-->New HitID: 1409351813 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 155.671 New HitEntryPoint: (-12.875,13.125,-353.5) New IncidentEnergy: 99.0654 New HitPosition: (-12.875,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:10-->New HitID: 1409351814 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 130.055 New HitEntryPoint: (12.125,13.125,-353.5) New IncidentEnergy: 99.0654 New HitPosition: (12.125,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:11-->New HitID: 1409351815 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 158.4 New HitEntryPoint: (37.125,13.125,-353.5) New IncidentEnergy: 99.0654 New HitPosition: (37.125,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:12-->New HitID: 1409351816 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 86.484 New HitEntryPoint: (12.5,13.125,-353.5) New IncidentEnergy: 99.0654 New HitPosition: (12.5,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:13-->New HitID: 1409351817 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 68.532 New HitEntryPoint: (-12.875,13.125,-353.5) New IncidentEnergy: 99.0654 New HitPosition: (-12.875,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:14-->New HitID: 1409351818 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 132.105 New HitEntryPoint: (12.125,-16.875,-353.5) New IncidentEnergy: 99.0654 New HitPosition: (12.125,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:15-->New HitID: 1409351819 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 84.632 New HitEntryPoint: (37.125,-16.875,-353.5) New IncidentEnergy: 99.0654 New HitPosition: (37.125,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:16-->New HitID: 1409351820 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 46.335 New HitEntryPoint: (12.5,-16.875,-353.5) New IncidentEnergy: 99.0654 New HitPosition: (12.5,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:17-->New HitID: 1409351821 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 86.747 New HitEntryPoint: (-12.875,-16.875,-353.5) New IncidentEnergy: 99.0654 New HitPosition: (-12.875,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:18-->New HitID: 1409351822 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 119.729 New HitEntryPoint: (12.125,-16.875,-353.5) New IncidentEnergy: 99.0654 New HitPosition: (12.125,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:19-->New HitID: 1409351823 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 79.844 New HitEntryPoint: (37.125,-46.875,-353.5) New IncidentEnergy: 99.0654 New HitPosition: (37.125,-46.875,-140354)
+ForwardSimZdcSD: Final Hit number:20-->New HitID: 1409351824 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 142.915 New HitEntryPoint: (12.5,-46.875,-353.5) New IncidentEnergy: 99.0654 New HitPosition: (12.5,-46.875,-140354)
+ForwardSimZdcSD: Final Hit number:21-->New HitID: 1409351745 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 50.859 New HitEntryPoint: (0,0,-327) New IncidentEnergy: 99.0654 New HitPosition: (0,0,-140327)
+ForwardSimZdcSD: Final Hit number:22-->New HitID: 1409351746 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 25.732 New HitEntryPoint: (0,0,-187.8) New IncidentEnergy: 99.0654 New HitPosition: (0,0,-140188)
+ForwardSimZdcSD: Final Hit number:23-->New HitID: 1409351747 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 12.095 New HitEntryPoint: (0,0,-48.6) New IncidentEnergy: 99.0654 New HitPosition: (0,0,-140049)
+ForwardSimZdcSD: Final Hit number:24-->New HitID: 1409351748 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 13.153 New HitEntryPoint: (0,0,90.6) New IncidentEnergy: 99.0654 New HitPosition: (0,0,-139909)
+ ZdcTestAnalysis:  Step 0.696426,0
+ ZdcTestAnalysis:   GHD 0: 55,ZDC_EMFiber,ZDC_EMFiber,quartz
+ ZdcTestAnalysis:   GHD 1: 1,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+
+ZdcTest::upDate(const EndOfEvent * evt) - event #6
+  # of aSteps followed in event = 5
+  ZdcTestAnalysis:  accessed all HC ZdcTestAnalysis:  - theZDCHCid = 0 ZdcTestAnalysis:  - theZDCHC = 0x2afa9b08d400
+Creating ZDCNumberingScheme
+ ZdcTestAnalysis:   theZDCHC has 21 entries
+ ZdcTestAnalysis:  entry #0: fiberID=0x54010023; enEm=0; enHad=25842; hitEnergy=25842z=-140448
+ZDC unpacking: idx:1409351715 -> section 3 layer 4 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  4 fiber 64 channel 0 zside 1idx: 65571
+ZDC packing result after unpacking and repacking: section 3 layer  4 fiber 64 channel 0 zside 1 new idx: 65571
+ZDC unpacking: idx:1409351715 -> section 3 layer 4 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  4 fiber 64 channel 0 zside 1idx: 65571
+ZDC packing result after unpacking and repacking: section 3 layer  4 fiber 64 channel 0 zside 1 new idx: 65571
+ ZdcTestAnalysis:  entry #1: fiberID=0x54010041; enEm=0; enHad=50859; hitEnergy=50859z=-140327
+ZDC unpacking: idx:1409351745 -> section 1 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  8 fiber 64 channel 0 zside 1idx: 65601
+ZDC packing result after unpacking and repacking: section 1 layer  8 fiber 64 channel 0 zside 1 new idx: 65601
+ZDC unpacking: idx:1409351745 -> section 1 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  8 fiber 64 channel 0 zside 1idx: 65601
+ZDC packing result after unpacking and repacking: section 1 layer  8 fiber 64 channel 0 zside 1 new idx: 65601
+ ZdcTestAnalysis:  entry #2: fiberID=0x54010042; enEm=0; enHad=25732; hitEnergy=25732z=-140188
+ZDC unpacking: idx:1409351746 -> section 2 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  8 fiber 64 channel 0 zside 1idx: 65602
+ZDC packing result after unpacking and repacking: section 2 layer  8 fiber 64 channel 0 zside 1 new idx: 65602
+ZDC unpacking: idx:1409351746 -> section 2 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  8 fiber 64 channel 0 zside 1idx: 65602
+ZDC packing result after unpacking and repacking: section 2 layer  8 fiber 64 channel 0 zside 1 new idx: 65602
+ ZdcTestAnalysis:  entry #3: fiberID=0x54010043; enEm=0; enHad=12095; hitEnergy=12095z=-140049
+ZDC unpacking: idx:1409351747 -> section 3 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  8 fiber 64 channel 0 zside 1idx: 65603
+ZDC packing result after unpacking and repacking: section 3 layer  8 fiber 64 channel 0 zside 1 new idx: 65603
+ZDC unpacking: idx:1409351747 -> section 3 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  8 fiber 64 channel 0 zside 1idx: 65603
+ZDC packing result after unpacking and repacking: section 3 layer  8 fiber 64 channel 0 zside 1 new idx: 65603
+ ZdcTestAnalysis:  entry #4: fiberID=0x54010044; enEm=0; enHad=13153; hitEnergy=13153z=-139909
+ZDC unpacking: idx:1409351748 -> section 4 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  8 fiber 64 channel 0 zside 1idx: 65604
+ZDC packing result after unpacking and repacking: section 4 layer  8 fiber 64 channel 0 zside 1 new idx: 65604
+ZDC unpacking: idx:1409351748 -> section 4 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  8 fiber 64 channel 0 zside 1idx: 65604
+ZDC packing result after unpacking and repacking: section 4 layer  8 fiber 64 channel 0 zside 1 new idx: 65604
+ ZdcTestAnalysis:  entry #5: fiberID=0x54010081; enEm=0; enHad=70658; hitEnergy=70658z=-140354
+ZDC unpacking: idx:1409351809 -> section 1 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  16 fiber 64 channel 0 zside 1idx: 65665
+ZDC packing result after unpacking and repacking: section 1 layer  16 fiber 64 channel 0 zside 1 new idx: 65665
+ZDC unpacking: idx:1409351809 -> section 1 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  16 fiber 64 channel 0 zside 1idx: 65665
+ZDC packing result after unpacking and repacking: section 1 layer  16 fiber 64 channel 0 zside 1 new idx: 65665
+ ZdcTestAnalysis:  entry #6: fiberID=0x54010082; enEm=0; enHad=106516; hitEnergy=106516z=-140354
+ZDC unpacking: idx:1409351810 -> section 2 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  16 fiber 64 channel 0 zside 1idx: 65666
+ZDC packing result after unpacking and repacking: section 2 layer  16 fiber 64 channel 0 zside 1 new idx: 65666
+ZDC unpacking: idx:1409351810 -> section 2 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  16 fiber 64 channel 0 zside 1idx: 65666
+ZDC packing result after unpacking and repacking: section 2 layer  16 fiber 64 channel 0 zside 1 new idx: 65666
+ ZdcTestAnalysis:  entry #7: fiberID=0x54010083; enEm=0; enHad=91490; hitEnergy=91490z=-140354
+ZDC unpacking: idx:1409351811 -> section 3 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  16 fiber 64 channel 0 zside 1idx: 65667
+ZDC packing result after unpacking and repacking: section 3 layer  16 fiber 64 channel 0 zside 1 new idx: 65667
+ZDC unpacking: idx:1409351811 -> section 3 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  16 fiber 64 channel 0 zside 1idx: 65667
+ZDC packing result after unpacking and repacking: section 3 layer  16 fiber 64 channel 0 zside 1 new idx: 65667
+ ZdcTestAnalysis:  entry #8: fiberID=0x54010084; enEm=0; enHad=83815; hitEnergy=83815z=-140354
+ZDC unpacking: idx:1409351812 -> section 4 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  16 fiber 64 channel 0 zside 1idx: 65668
+ZDC packing result after unpacking and repacking: section 4 layer  16 fiber 64 channel 0 zside 1 new idx: 65668
+ZDC unpacking: idx:1409351812 -> section 4 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  16 fiber 64 channel 0 zside 1idx: 65668
+ZDC packing result after unpacking and repacking: section 4 layer  16 fiber 64 channel 0 zside 1 new idx: 65668
+ ZdcTestAnalysis:  entry #9: fiberID=0x54010085; enEm=0; enHad=155671; hitEnergy=155671z=-140354
+ZDC unpacking: idx:1409351813 -> section 5 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 5 layer  16 fiber 64 channel 0 zside 1idx: 65669
+ZDC packing result after unpacking and repacking: section 5 layer  16 fiber 64 channel 0 zside 1 new idx: 65669
+ZDC unpacking: idx:1409351813 -> section 5 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 5 layer  16 fiber 64 channel 0 zside 1idx: 65669
+ZDC packing result after unpacking and repacking: section 5 layer  16 fiber 64 channel 0 zside 1 new idx: 65669
+ ZdcTestAnalysis:  entry #10: fiberID=0x54010086; enEm=0; enHad=130055; hitEnergy=130055z=-140354
+ZDC unpacking: idx:1409351814 -> section 6 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 6 layer  16 fiber 64 channel 0 zside 1idx: 65670
+ZDC packing result after unpacking and repacking: section 6 layer  16 fiber 64 channel 0 zside 1 new idx: 65670
+ZDC unpacking: idx:1409351814 -> section 6 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 6 layer  16 fiber 64 channel 0 zside 1idx: 65670
+ZDC packing result after unpacking and repacking: section 6 layer  16 fiber 64 channel 0 zside 1 new idx: 65670
+ ZdcTestAnalysis:  entry #11: fiberID=0x54010087; enEm=0; enHad=158400; hitEnergy=158400z=-140354
+ZDC unpacking: idx:1409351815 -> section 7 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 7 layer  16 fiber 64 channel 0 zside 1idx: 65671
+ZDC packing result after unpacking and repacking: section 7 layer  16 fiber 64 channel 0 zside 1 new idx: 65671
+ZDC unpacking: idx:1409351815 -> section 7 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 7 layer  16 fiber 64 channel 0 zside 1idx: 65671
+ZDC packing result after unpacking and repacking: section 7 layer  16 fiber 64 channel 0 zside 1 new idx: 65671
+ ZdcTestAnalysis:  entry #12: fiberID=0x54010088; enEm=0; enHad=86484; hitEnergy=86484z=-140354
+ZDC unpacking: idx:1409351816 -> section 0 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 0 layer  17 fiber 64 channel 0 zside 1idx: 65672
+ZDC packing result after unpacking and repacking: section 0 layer  17 fiber 64 channel 0 zside 1 new idx: 65672
+ZDC unpacking: idx:1409351816 -> section 0 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 0 layer  17 fiber 64 channel 0 zside 1idx: 65672
+ZDC packing result after unpacking and repacking: section 0 layer  17 fiber 64 channel 0 zside 1 new idx: 65672
+ ZdcTestAnalysis:  entry #13: fiberID=0x54010089; enEm=0; enHad=68532; hitEnergy=68532z=-140354
+ZDC unpacking: idx:1409351817 -> section 1 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  17 fiber 64 channel 0 zside 1idx: 65673
+ZDC packing result after unpacking and repacking: section 1 layer  17 fiber 64 channel 0 zside 1 new idx: 65673
+ZDC unpacking: idx:1409351817 -> section 1 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  17 fiber 64 channel 0 zside 1idx: 65673
+ZDC packing result after unpacking and repacking: section 1 layer  17 fiber 64 channel 0 zside 1 new idx: 65673
+ ZdcTestAnalysis:  entry #14: fiberID=0x5401008a; enEm=0; enHad=132105; hitEnergy=132105z=-140354
+ZDC unpacking: idx:1409351818 -> section 2 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  17 fiber 64 channel 0 zside 1idx: 65674
+ZDC packing result after unpacking and repacking: section 2 layer  17 fiber 64 channel 0 zside 1 new idx: 65674
+ZDC unpacking: idx:1409351818 -> section 2 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  17 fiber 64 channel 0 zside 1idx: 65674
+ZDC packing result after unpacking and repacking: section 2 layer  17 fiber 64 channel 0 zside 1 new idx: 65674
+ ZdcTestAnalysis:  entry #15: fiberID=0x5401008b; enEm=0; enHad=84632; hitEnergy=84632z=-140354
+ZDC unpacking: idx:1409351819 -> section 3 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  17 fiber 64 channel 0 zside 1idx: 65675
+ZDC packing result after unpacking and repacking: section 3 layer  17 fiber 64 channel 0 zside 1 new idx: 65675
+ZDC unpacking: idx:1409351819 -> section 3 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  17 fiber 64 channel 0 zside 1idx: 65675
+ZDC packing result after unpacking and repacking: section 3 layer  17 fiber 64 channel 0 zside 1 new idx: 65675
+ ZdcTestAnalysis:  entry #16: fiberID=0x5401008c; enEm=0; enHad=46335; hitEnergy=46335z=-140354
+ZDC unpacking: idx:1409351820 -> section 4 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  17 fiber 64 channel 0 zside 1idx: 65676
+ZDC packing result after unpacking and repacking: section 4 layer  17 fiber 64 channel 0 zside 1 new idx: 65676
+ZDC unpacking: idx:1409351820 -> section 4 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  17 fiber 64 channel 0 zside 1idx: 65676
+ZDC packing result after unpacking and repacking: section 4 layer  17 fiber 64 channel 0 zside 1 new idx: 65676
+ ZdcTestAnalysis:  entry #17: fiberID=0x5401008d; enEm=0; enHad=86747; hitEnergy=86747z=-140354
+ZDC unpacking: idx:1409351821 -> section 5 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 5 layer  17 fiber 64 channel 0 zside 1idx: 65677
+ZDC packing result after unpacking and repacking: section 5 layer  17 fiber 64 channel 0 zside 1 new idx: 65677
+ZDC unpacking: idx:1409351821 -> section 5 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 5 layer  17 fiber 64 channel 0 zside 1idx: 65677
+ZDC packing result after unpacking and repacking: section 5 layer  17 fiber 64 channel 0 zside 1 new idx: 65677
+ ZdcTestAnalysis:  entry #18: fiberID=0x5401008e; enEm=0; enHad=119729; hitEnergy=119729z=-140354
+ZDC unpacking: idx:1409351822 -> section 6 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 6 layer  17 fiber 64 channel 0 zside 1idx: 65678
+ZDC packing result after unpacking and repacking: section 6 layer  17 fiber 64 channel 0 zside 1 new idx: 65678
+ZDC unpacking: idx:1409351822 -> section 6 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 6 layer  17 fiber 64 channel 0 zside 1idx: 65678
+ZDC packing result after unpacking and repacking: section 6 layer  17 fiber 64 channel 0 zside 1 new idx: 65678
+ ZdcTestAnalysis:  entry #19: fiberID=0x5401008f; enEm=0; enHad=79844; hitEnergy=79844z=-140354
+ZDC unpacking: idx:1409351823 -> section 7 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 7 layer  17 fiber 64 channel 0 zside 1idx: 65679
+ZDC packing result after unpacking and repacking: section 7 layer  17 fiber 64 channel 0 zside 1 new idx: 65679
+ZDC unpacking: idx:1409351823 -> section 7 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 7 layer  17 fiber 64 channel 0 zside 1idx: 65679
+ZDC packing result after unpacking and repacking: section 7 layer  17 fiber 64 channel 0 zside 1 new idx: 65679
+ ZdcTestAnalysis:  entry #20: fiberID=0x54010090; enEm=0; enHad=142915; hitEnergy=142915z=-140354
+ZDC unpacking: idx:1409351824 -> section 0 layer 18 fiber 64 channel 0 zside 1
+ZDC packing: section 0 layer  18 fiber 64 channel 0 zside 1idx: 65680
+ZDC packing result after unpacking and repacking: section 0 layer  18 fiber 64 channel 0 zside 1 new idx: 65680
+ZDC unpacking: idx:1409351824 -> section 0 layer 18 fiber 64 channel 0 zside 1
+ZDC packing: section 0 layer  18 fiber 64 channel 0 zside 1idx: 65680
+ZDC packing result after unpacking and repacking: section 0 layer  18 fiber 64 channel 0 zside 1 new idx: 65680
+ ZdcTestAnalysis:  Event has 2 vertex
+ ZdcTestAnalysis: Vertex number :0
+ ZdcTestAnalysis: Vertex number :1
+  ZdcTestAnalysis:  Event 6
+%MSG-i CaloSim:  OscarProducer:g4SimHits 19-Dec-2013 11:11:35 EST  Run: 1 Event: 6
+CaloSD: ZDCHITS store 21 hits recorded with 0 track IDs not given properly and 4 hits not passing cuts
+%MSG
+TimeModule> 6 1 g4SimHits OscarProducer 0.00134611
+TimeModule> 6 1 MEtoEDMConverter MEtoEDMConverter 3.8147e-06
+TimeModule> 6 1 TriggerResults TriggerResultInserter 1.40667e-05
+TimeModule> 6 1 output PoolOutputModule 0.00404906
+%MSG-w MemoryCheck:  PostProcessPath 19-Dec-2013 11:11:35 EST Run: 1 Event: 6
+MemoryCheck: event : VSIZE 535.988 0 RSS 258.508 0
+
+%MSG
+TimeEvent> 6 1 0.00691605 0.006999 0.056991
+Begin processing the 7th record. Run 1, Event 7, LumiSection 1 at 19-Dec-2013 11:11:35.178 EST
+TimeModule> 7 1 generator FlatRandomEGunProducer 1.81198e-05
+TimeModule> 7 1 randomEngineStateProducer RandomEngineStateProducer 6.98566e-05
+TimeModule> 7 1 VtxSmeared FlatEvtVtxGenerator 9.77516e-06
+TimeModule> 7 1 genParticles GenParticleProducer 1.50204e-05
+TimeModule> 7 1 genParticlesForJets InputGenJetsParticleSelector 1.19209e-05
+TimeModule> 7 1 kt4GenJets FastjetJetProducer 3.19481e-05
+TimeModule> 7 1 kt6GenJets FastjetJetProducer 2.38419e-05
+TimeModule> 7 1 iterativeCone5GenJets FastjetJetProducer 2.88486e-05
+TimeModule> 7 1 ak5GenJets FastjetJetProducer 2.38419e-05
+TimeModule> 7 1 ak7GenJets FastjetJetProducer 2.38419e-05
+TimeModule> 7 1 genCandidatesForMET InputGenJetsParticleSelector 1.09673e-05
+TimeModule> 7 1 genParticlesForMETAllVisible InputGenJetsParticleSelector 1.00136e-05
+TimeModule> 7 1 genMetCalo METProducer 1.78814e-05
+TimeModule> 7 1 genMetCaloAndNonPrompt METProducer 1.71661e-05
+TimeModule> 7 1 genMetTrue METProducer 1.69277e-05
+TimeModule> 7 1 genMetIC5GenJets METProducer 1.5974e-05
+TimeModule> 7 1 LHCTransport HectorProducer 0.000226021
+ZdcTest: Processing Event Number: 6
+
+ZdcTest::upDate(const EndOfEvent * evt) - event #7
+  # of aSteps followed in event = 0
+  ZdcTestAnalysis:  accessed all HC ZdcTestAnalysis:  - theZDCHCid = 0 ZdcTestAnalysis:  - theZDCHC = 0x2afa9b08d400
+Creating ZDCNumberingScheme
+ ZdcTestAnalysis:   theZDCHC has 0 entries
+  ZdcTestAnalysis:  Event 7
+%MSG-i CaloSim:  OscarProducer:g4SimHits 19-Dec-2013 11:11:35 EST  Run: 1 Event: 7
+CaloSD: ZDCHITS store 0 hits recorded with 0 track IDs not given properly and 0 hits not passing cuts
+%MSG
+TimeModule> 7 1 g4SimHits OscarProducer 0.000178814
+TimeModule> 7 1 MEtoEDMConverter MEtoEDMConverter 3.09944e-06
+TimeModule> 7 1 TriggerResults TriggerResultInserter 1.28746e-05
+TimeModule> 7 1 output PoolOutputModule 0.00388408
+%MSG-w MemoryCheck:  PostProcessPath 19-Dec-2013 11:11:35 EST Run: 1 Event: 7
+MemoryCheck: event : VSIZE 535.988 0 RSS 258.512 0
+
+%MSG
+TimeEvent> 7 1 0.00566196 0.005999 0.06299
+Begin processing the 8th record. Run 1, Event 8, LumiSection 1 at 19-Dec-2013 11:11:35.185 EST
+TimeModule> 8 1 generator FlatRandomEGunProducer 1.69277e-05
+TimeModule> 8 1 randomEngineStateProducer RandomEngineStateProducer 6.69956e-05
+TimeModule> 8 1 VtxSmeared FlatEvtVtxGenerator 1.00136e-05
+TimeModule> 8 1 genParticles GenParticleProducer 1.50204e-05
+TimeModule> 8 1 genParticlesForJets InputGenJetsParticleSelector 1.21593e-05
+TimeModule> 8 1 kt4GenJets FastjetJetProducer 4.29153e-05
+TimeModule> 8 1 kt6GenJets FastjetJetProducer 2.40803e-05
+TimeModule> 8 1 iterativeCone5GenJets FastjetJetProducer 2.40803e-05
+TimeModule> 8 1 ak5GenJets FastjetJetProducer 2.38419e-05
+TimeModule> 8 1 ak7GenJets FastjetJetProducer 2.40803e-05
+TimeModule> 8 1 genCandidatesForMET InputGenJetsParticleSelector 1.09673e-05
+TimeModule> 8 1 genParticlesForMETAllVisible InputGenJetsParticleSelector 1.00136e-05
+TimeModule> 8 1 genMetCalo METProducer 1.71661e-05
+TimeModule> 8 1 genMetCaloAndNonPrompt METProducer 1.81198e-05
+TimeModule> 8 1 genMetTrue METProducer 1.78814e-05
+TimeModule> 8 1 genMetIC5GenJets METProducer 1.3113e-05
+TimeModule> 8 1 LHCTransport HectorProducer 0.000123978
+ZdcTest: Processing Event Number: 7
+ ZdcTestAnalysis:  Step 1100,0
+ ZdcTestAnalysis:  hd=0 0,DDDWorld,ZDCWorld,Air
+ ZdcTestAnalysis:  Step 400,0
+ ZdcTestAnalysis:   GHD 0: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis: pvtype=0 hd=1 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 1,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 0.302374,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ZdcSDZdcSD: Problem with primaryID **** set by force to TkID **** 1
+ForwardSim ----------------New track------------------------------
+Incident EnergyTrack: 99058.6 MeV 
+Zdc Cut Energy for Hits: 10000 MeV 
+ZdcSD::getFromLibrary 0 hits for ZDCHITS of 1 with neutron of 99058.6 MeV
+
+HcalZDCDetID::HcalZDCDetId: id_ 54010021, section: 1, channel: 1 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010022, section: 1, channel: 2 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010023, section: 1, channel: 3 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010024, section: 1, channel: 4 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010025, section: 1, channel: 5 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010081, section: 4, channel: 1 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010082, section: 4, channel: 2 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010083, section: 4, channel: 3 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010084, section: 4, channel: 4 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010085, section: 4, channel: 5 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010086, section: 4, channel: 6 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010087, section: 4, channel: 7 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010088, section: 4, channel: 8 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010089, section: 4, channel: 9 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008a, section: 4, channel: 10 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008b, section: 4, channel: 11 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008c, section: 4, channel: 12 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008d, section: 4, channel: 13 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008e, section: 4, channel: 14 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008f, section: 4, channel: 15 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010090, section: 4, channel: 16 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010041, section: 2, channel: 1 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010042, section: 2, channel: 2 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010043, section: 2, channel: 3 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010044, section: 2, channel: 4 z 0
+ForwardSimZdcSD: Final Hit number:0-->New HitID: 1409351713 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 0 New HitEntryPoint: (-38.4,0,-447.775) New IncidentEnergy: 99.0586 New HitPosition: (-38.4,0,-140448)
+ForwardSimZdcSD: Final Hit number:1-->New HitID: 1409351714 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 0 New HitEntryPoint: (-19.2,0,-447.775) New IncidentEnergy: 99.0586 New HitPosition: (-19.2,0,-140448)
+ForwardSimZdcSD: Final Hit number:2-->New HitID: 1409351715 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 16.538 New HitEntryPoint: (3.8147e-07,0,-447.775) New IncidentEnergy: 99.0586 New HitPosition: (3.8147e-07,0,-140448)
+ForwardSimZdcSD: Final Hit number:3-->New HitID: 1409351716 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 0 New HitEntryPoint: (19.2,0,-447.775) New IncidentEnergy: 99.0586 New HitPosition: (19.2,0,-140448)
+ForwardSimZdcSD: Final Hit number:4-->New HitID: 1409351717 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 0 New HitEntryPoint: (38.4,0,-447.775) New IncidentEnergy: 99.0586 New HitPosition: (38.4,0,-140448)
+ForwardSimZdcSD: Final Hit number:5-->New HitID: 1409351809 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 54.223 New HitEntryPoint: (-12.875,43.125,-353.5) New IncidentEnergy: 99.0586 New HitPosition: (-12.875,43.125,-140354)
+ForwardSimZdcSD: Final Hit number:6-->New HitID: 1409351810 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 89.744 New HitEntryPoint: (12.125,43.125,-353.5) New IncidentEnergy: 99.0586 New HitPosition: (12.125,43.125,-140354)
+ForwardSimZdcSD: Final Hit number:7-->New HitID: 1409351811 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 157.888 New HitEntryPoint: (37.125,43.125,-353.5) New IncidentEnergy: 99.0586 New HitPosition: (37.125,43.125,-140354)
+ForwardSimZdcSD: Final Hit number:8-->New HitID: 1409351812 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 53.221 New HitEntryPoint: (12.5,43.125,-353.5) New IncidentEnergy: 99.0586 New HitPosition: (12.5,43.125,-140354)
+ForwardSimZdcSD: Final Hit number:9-->New HitID: 1409351813 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 66.179 New HitEntryPoint: (-12.875,13.125,-353.5) New IncidentEnergy: 99.0586 New HitPosition: (-12.875,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:10-->New HitID: 1409351814 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 59.9 New HitEntryPoint: (12.125,13.125,-353.5) New IncidentEnergy: 99.0586 New HitPosition: (12.125,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:11-->New HitID: 1409351815 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 68.433 New HitEntryPoint: (37.125,13.125,-353.5) New IncidentEnergy: 99.0586 New HitPosition: (37.125,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:12-->New HitID: 1409351816 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 96.75 New HitEntryPoint: (12.5,13.125,-353.5) New IncidentEnergy: 99.0586 New HitPosition: (12.5,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:13-->New HitID: 1409351817 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 93.22 New HitEntryPoint: (-12.875,13.125,-353.5) New IncidentEnergy: 99.0586 New HitPosition: (-12.875,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:14-->New HitID: 1409351818 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 99.559 New HitEntryPoint: (12.125,-16.875,-353.5) New IncidentEnergy: 99.0586 New HitPosition: (12.125,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:15-->New HitID: 1409351819 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 127.269 New HitEntryPoint: (37.125,-16.875,-353.5) New IncidentEnergy: 99.0586 New HitPosition: (37.125,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:16-->New HitID: 1409351820 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 70.453 New HitEntryPoint: (12.5,-16.875,-353.5) New IncidentEnergy: 99.0586 New HitPosition: (12.5,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:17-->New HitID: 1409351821 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 152.247 New HitEntryPoint: (-12.875,-16.875,-353.5) New IncidentEnergy: 99.0586 New HitPosition: (-12.875,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:18-->New HitID: 1409351822 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 50.515 New HitEntryPoint: (12.125,-16.875,-353.5) New IncidentEnergy: 99.0586 New HitPosition: (12.125,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:19-->New HitID: 1409351823 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 83.047 New HitEntryPoint: (37.125,-46.875,-353.5) New IncidentEnergy: 99.0586 New HitPosition: (37.125,-46.875,-140354)
+ForwardSimZdcSD: Final Hit number:20-->New HitID: 1409351824 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 89.919 New HitEntryPoint: (12.5,-46.875,-353.5) New IncidentEnergy: 99.0586 New HitPosition: (12.5,-46.875,-140354)
+ForwardSimZdcSD: Final Hit number:21-->New HitID: 1409351745 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 22.703 New HitEntryPoint: (0,0,-327) New IncidentEnergy: 99.0586 New HitPosition: (0,0,-140327)
+ForwardSimZdcSD: Final Hit number:22-->New HitID: 1409351746 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 17.327 New HitEntryPoint: (0,0,-187.8) New IncidentEnergy: 99.0586 New HitPosition: (0,0,-140188)
+ForwardSimZdcSD: Final Hit number:23-->New HitID: 1409351747 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 22.71 New HitEntryPoint: (0,0,-48.6) New IncidentEnergy: 99.0586 New HitPosition: (0,0,-140049)
+ForwardSimZdcSD: Final Hit number:24-->New HitID: 1409351748 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 7.32 New HitEntryPoint: (0,0,90.6) New IncidentEnergy: 99.0586 New HitPosition: (0,0,-139909)
+ ZdcTestAnalysis:  Step 0.394974,0
+ ZdcTestAnalysis:   GHD 0: 56,ZDC_EMFiber,ZDC_EMFiber,quartz
+ ZdcTestAnalysis:   GHD 1: 1,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+
+ZdcTest::upDate(const EndOfEvent * evt) - event #8
+  # of aSteps followed in event = 5
+  ZdcTestAnalysis:  accessed all HC ZdcTestAnalysis:  - theZDCHCid = 0 ZdcTestAnalysis:  - theZDCHC = 0x2afa9b08d400
+Creating ZDCNumberingScheme
+ ZdcTestAnalysis:   theZDCHC has 21 entries
+ ZdcTestAnalysis:  entry #0: fiberID=0x54010023; enEm=0; enHad=16538; hitEnergy=16538z=-140448
+ZDC unpacking: idx:1409351715 -> section 3 layer 4 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  4 fiber 64 channel 0 zside 1idx: 65571
+ZDC packing result after unpacking and repacking: section 3 layer  4 fiber 64 channel 0 zside 1 new idx: 65571
+ZDC unpacking: idx:1409351715 -> section 3 layer 4 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  4 fiber 64 channel 0 zside 1idx: 65571
+ZDC packing result after unpacking and repacking: section 3 layer  4 fiber 64 channel 0 zside 1 new idx: 65571
+ ZdcTestAnalysis:  entry #1: fiberID=0x54010041; enEm=0; enHad=22703; hitEnergy=22703z=-140327
+ZDC unpacking: idx:1409351745 -> section 1 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  8 fiber 64 channel 0 zside 1idx: 65601
+ZDC packing result after unpacking and repacking: section 1 layer  8 fiber 64 channel 0 zside 1 new idx: 65601
+ZDC unpacking: idx:1409351745 -> section 1 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  8 fiber 64 channel 0 zside 1idx: 65601
+ZDC packing result after unpacking and repacking: section 1 layer  8 fiber 64 channel 0 zside 1 new idx: 65601
+ ZdcTestAnalysis:  entry #2: fiberID=0x54010042; enEm=0; enHad=17327; hitEnergy=17327z=-140188
+ZDC unpacking: idx:1409351746 -> section 2 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  8 fiber 64 channel 0 zside 1idx: 65602
+ZDC packing result after unpacking and repacking: section 2 layer  8 fiber 64 channel 0 zside 1 new idx: 65602
+ZDC unpacking: idx:1409351746 -> section 2 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  8 fiber 64 channel 0 zside 1idx: 65602
+ZDC packing result after unpacking and repacking: section 2 layer  8 fiber 64 channel 0 zside 1 new idx: 65602
+ ZdcTestAnalysis:  entry #3: fiberID=0x54010043; enEm=0; enHad=22710; hitEnergy=22710z=-140049
+ZDC unpacking: idx:1409351747 -> section 3 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  8 fiber 64 channel 0 zside 1idx: 65603
+ZDC packing result after unpacking and repacking: section 3 layer  8 fiber 64 channel 0 zside 1 new idx: 65603
+ZDC unpacking: idx:1409351747 -> section 3 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  8 fiber 64 channel 0 zside 1idx: 65603
+ZDC packing result after unpacking and repacking: section 3 layer  8 fiber 64 channel 0 zside 1 new idx: 65603
+ ZdcTestAnalysis:  entry #4: fiberID=0x54010044; enEm=0; enHad=7320; hitEnergy=7320z=-139909
+ZDC unpacking: idx:1409351748 -> section 4 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  8 fiber 64 channel 0 zside 1idx: 65604
+ZDC packing result after unpacking and repacking: section 4 layer  8 fiber 64 channel 0 zside 1 new idx: 65604
+ZDC unpacking: idx:1409351748 -> section 4 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  8 fiber 64 channel 0 zside 1idx: 65604
+ZDC packing result after unpacking and repacking: section 4 layer  8 fiber 64 channel 0 zside 1 new idx: 65604
+ ZdcTestAnalysis:  entry #5: fiberID=0x54010081; enEm=0; enHad=54223; hitEnergy=54223z=-140354
+ZDC unpacking: idx:1409351809 -> section 1 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  16 fiber 64 channel 0 zside 1idx: 65665
+ZDC packing result after unpacking and repacking: section 1 layer  16 fiber 64 channel 0 zside 1 new idx: 65665
+ZDC unpacking: idx:1409351809 -> section 1 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  16 fiber 64 channel 0 zside 1idx: 65665
+ZDC packing result after unpacking and repacking: section 1 layer  16 fiber 64 channel 0 zside 1 new idx: 65665
+ ZdcTestAnalysis:  entry #6: fiberID=0x54010082; enEm=0; enHad=89744; hitEnergy=89744z=-140354
+ZDC unpacking: idx:1409351810 -> section 2 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  16 fiber 64 channel 0 zside 1idx: 65666
+ZDC packing result after unpacking and repacking: section 2 layer  16 fiber 64 channel 0 zside 1 new idx: 65666
+ZDC unpacking: idx:1409351810 -> section 2 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  16 fiber 64 channel 0 zside 1idx: 65666
+ZDC packing result after unpacking and repacking: section 2 layer  16 fiber 64 channel 0 zside 1 new idx: 65666
+ ZdcTestAnalysis:  entry #7: fiberID=0x54010083; enEm=0; enHad=157888; hitEnergy=157888z=-140354
+ZDC unpacking: idx:1409351811 -> section 3 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  16 fiber 64 channel 0 zside 1idx: 65667
+ZDC packing result after unpacking and repacking: section 3 layer  16 fiber 64 channel 0 zside 1 new idx: 65667
+ZDC unpacking: idx:1409351811 -> section 3 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  16 fiber 64 channel 0 zside 1idx: 65667
+ZDC packing result after unpacking and repacking: section 3 layer  16 fiber 64 channel 0 zside 1 new idx: 65667
+ ZdcTestAnalysis:  entry #8: fiberID=0x54010084; enEm=0; enHad=53221; hitEnergy=53221z=-140354
+ZDC unpacking: idx:1409351812 -> section 4 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  16 fiber 64 channel 0 zside 1idx: 65668
+ZDC packing result after unpacking and repacking: section 4 layer  16 fiber 64 channel 0 zside 1 new idx: 65668
+ZDC unpacking: idx:1409351812 -> section 4 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  16 fiber 64 channel 0 zside 1idx: 65668
+ZDC packing result after unpacking and repacking: section 4 layer  16 fiber 64 channel 0 zside 1 new idx: 65668
+ ZdcTestAnalysis:  entry #9: fiberID=0x54010085; enEm=0; enHad=66179; hitEnergy=66179z=-140354
+ZDC unpacking: idx:1409351813 -> section 5 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 5 layer  16 fiber 64 channel 0 zside 1idx: 65669
+ZDC packing result after unpacking and repacking: section 5 layer  16 fiber 64 channel 0 zside 1 new idx: 65669
+ZDC unpacking: idx:1409351813 -> section 5 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 5 layer  16 fiber 64 channel 0 zside 1idx: 65669
+ZDC packing result after unpacking and repacking: section 5 layer  16 fiber 64 channel 0 zside 1 new idx: 65669
+ ZdcTestAnalysis:  entry #10: fiberID=0x54010086; enEm=0; enHad=59900; hitEnergy=59900z=-140354
+ZDC unpacking: idx:1409351814 -> section 6 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 6 layer  16 fiber 64 channel 0 zside 1idx: 65670
+ZDC packing result after unpacking and repacking: section 6 layer  16 fiber 64 channel 0 zside 1 new idx: 65670
+ZDC unpacking: idx:1409351814 -> section 6 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 6 layer  16 fiber 64 channel 0 zside 1idx: 65670
+ZDC packing result after unpacking and repacking: section 6 layer  16 fiber 64 channel 0 zside 1 new idx: 65670
+ ZdcTestAnalysis:  entry #11: fiberID=0x54010087; enEm=0; enHad=68433; hitEnergy=68433z=-140354
+ZDC unpacking: idx:1409351815 -> section 7 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 7 layer  16 fiber 64 channel 0 zside 1idx: 65671
+ZDC packing result after unpacking and repacking: section 7 layer  16 fiber 64 channel 0 zside 1 new idx: 65671
+ZDC unpacking: idx:1409351815 -> section 7 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 7 layer  16 fiber 64 channel 0 zside 1idx: 65671
+ZDC packing result after unpacking and repacking: section 7 layer  16 fiber 64 channel 0 zside 1 new idx: 65671
+ ZdcTestAnalysis:  entry #12: fiberID=0x54010088; enEm=0; enHad=96750; hitEnergy=96750z=-140354
+ZDC unpacking: idx:1409351816 -> section 0 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 0 layer  17 fiber 64 channel 0 zside 1idx: 65672
+ZDC packing result after unpacking and repacking: section 0 layer  17 fiber 64 channel 0 zside 1 new idx: 65672
+ZDC unpacking: idx:1409351816 -> section 0 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 0 layer  17 fiber 64 channel 0 zside 1idx: 65672
+ZDC packing result after unpacking and repacking: section 0 layer  17 fiber 64 channel 0 zside 1 new idx: 65672
+ ZdcTestAnalysis:  entry #13: fiberID=0x54010089; enEm=0; enHad=93220; hitEnergy=93220z=-140354
+ZDC unpacking: idx:1409351817 -> section 1 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  17 fiber 64 channel 0 zside 1idx: 65673
+ZDC packing result after unpacking and repacking: section 1 layer  17 fiber 64 channel 0 zside 1 new idx: 65673
+ZDC unpacking: idx:1409351817 -> section 1 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  17 fiber 64 channel 0 zside 1idx: 65673
+ZDC packing result after unpacking and repacking: section 1 layer  17 fiber 64 channel 0 zside 1 new idx: 65673
+ ZdcTestAnalysis:  entry #14: fiberID=0x5401008a; enEm=0; enHad=99559; hitEnergy=99559z=-140354
+ZDC unpacking: idx:1409351818 -> section 2 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  17 fiber 64 channel 0 zside 1idx: 65674
+ZDC packing result after unpacking and repacking: section 2 layer  17 fiber 64 channel 0 zside 1 new idx: 65674
+ZDC unpacking: idx:1409351818 -> section 2 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  17 fiber 64 channel 0 zside 1idx: 65674
+ZDC packing result after unpacking and repacking: section 2 layer  17 fiber 64 channel 0 zside 1 new idx: 65674
+ ZdcTestAnalysis:  entry #15: fiberID=0x5401008b; enEm=0; enHad=127269; hitEnergy=127269z=-140354
+ZDC unpacking: idx:1409351819 -> section 3 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  17 fiber 64 channel 0 zside 1idx: 65675
+ZDC packing result after unpacking and repacking: section 3 layer  17 fiber 64 channel 0 zside 1 new idx: 65675
+ZDC unpacking: idx:1409351819 -> section 3 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  17 fiber 64 channel 0 zside 1idx: 65675
+ZDC packing result after unpacking and repacking: section 3 layer  17 fiber 64 channel 0 zside 1 new idx: 65675
+ ZdcTestAnalysis:  entry #16: fiberID=0x5401008c; enEm=0; enHad=70453; hitEnergy=70453z=-140354
+ZDC unpacking: idx:1409351820 -> section 4 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  17 fiber 64 channel 0 zside 1idx: 65676
+ZDC packing result after unpacking and repacking: section 4 layer  17 fiber 64 channel 0 zside 1 new idx: 65676
+ZDC unpacking: idx:1409351820 -> section 4 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  17 fiber 64 channel 0 zside 1idx: 65676
+ZDC packing result after unpacking and repacking: section 4 layer  17 fiber 64 channel 0 zside 1 new idx: 65676
+ ZdcTestAnalysis:  entry #17: fiberID=0x5401008d; enEm=0; enHad=152247; hitEnergy=152247z=-140354
+ZDC unpacking: idx:1409351821 -> section 5 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 5 layer  17 fiber 64 channel 0 zside 1idx: 65677
+ZDC packing result after unpacking and repacking: section 5 layer  17 fiber 64 channel 0 zside 1 new idx: 65677
+ZDC unpacking: idx:1409351821 -> section 5 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 5 layer  17 fiber 64 channel 0 zside 1idx: 65677
+ZDC packing result after unpacking and repacking: section 5 layer  17 fiber 64 channel 0 zside 1 new idx: 65677
+ ZdcTestAnalysis:  entry #18: fiberID=0x5401008e; enEm=0; enHad=50515; hitEnergy=50515z=-140354
+ZDC unpacking: idx:1409351822 -> section 6 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 6 layer  17 fiber 64 channel 0 zside 1idx: 65678
+ZDC packing result after unpacking and repacking: section 6 layer  17 fiber 64 channel 0 zside 1 new idx: 65678
+ZDC unpacking: idx:1409351822 -> section 6 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 6 layer  17 fiber 64 channel 0 zside 1idx: 65678
+ZDC packing result after unpacking and repacking: section 6 layer  17 fiber 64 channel 0 zside 1 new idx: 65678
+ ZdcTestAnalysis:  entry #19: fiberID=0x5401008f; enEm=0; enHad=83047; hitEnergy=83047z=-140354
+ZDC unpacking: idx:1409351823 -> section 7 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 7 layer  17 fiber 64 channel 0 zside 1idx: 65679
+ZDC packing result after unpacking and repacking: section 7 layer  17 fiber 64 channel 0 zside 1 new idx: 65679
+ZDC unpacking: idx:1409351823 -> section 7 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 7 layer  17 fiber 64 channel 0 zside 1idx: 65679
+ZDC packing result after unpacking and repacking: section 7 layer  17 fiber 64 channel 0 zside 1 new idx: 65679
+ ZdcTestAnalysis:  entry #20: fiberID=0x54010090; enEm=0; enHad=89919; hitEnergy=89919z=-140354
+ZDC unpacking: idx:1409351824 -> section 0 layer 18 fiber 64 channel 0 zside 1
+ZDC packing: section 0 layer  18 fiber 64 channel 0 zside 1idx: 65680
+ZDC packing result after unpacking and repacking: section 0 layer  18 fiber 64 channel 0 zside 1 new idx: 65680
+ZDC unpacking: idx:1409351824 -> section 0 layer 18 fiber 64 channel 0 zside 1
+ZDC packing: section 0 layer  18 fiber 64 channel 0 zside 1idx: 65680
+ZDC packing result after unpacking and repacking: section 0 layer  18 fiber 64 channel 0 zside 1 new idx: 65680
+ ZdcTestAnalysis:  Event has 2 vertex
+ ZdcTestAnalysis: Vertex number :0
+ ZdcTestAnalysis: Vertex number :1
+  ZdcTestAnalysis:  Event 8
+%MSG-i CaloSim:  OscarProducer:g4SimHits 19-Dec-2013 11:11:35 EST  Run: 1 Event: 8
+CaloSD: ZDCHITS store 21 hits recorded with 0 track IDs not given properly and 4 hits not passing cuts
+%MSG
+TimeModule> 8 1 g4SimHits OscarProducer 0.00113606
+TimeModule> 8 1 MEtoEDMConverter MEtoEDMConverter 2.86102e-06
+TimeModule> 8 1 TriggerResults TriggerResultInserter 1.3113e-05
+TimeModule> 8 1 output PoolOutputModule 0.00387907
+%MSG-w MemoryCheck:  PostProcessPath 19-Dec-2013 11:11:35 EST Run: 1 Event: 8
+MemoryCheck: event : VSIZE 535.988 0 RSS 258.512 0
+
+%MSG
+TimeEvent> 8 1 0.00649214 0.005999 0.068989
+Begin processing the 9th record. Run 1, Event 9, LumiSection 1 at 19-Dec-2013 11:11:35.192 EST
+TimeModule> 9 1 generator FlatRandomEGunProducer 1.69277e-05
+TimeModule> 9 1 randomEngineStateProducer RandomEngineStateProducer 6.60419e-05
+TimeModule> 9 1 VtxSmeared FlatEvtVtxGenerator 1.00136e-05
+TimeModule> 9 1 genParticles GenParticleProducer 1.50204e-05
+TimeModule> 9 1 genParticlesForJets InputGenJetsParticleSelector 1.12057e-05
+TimeModule> 9 1 kt4GenJets FastjetJetProducer 3.00407e-05
+TimeModule> 9 1 kt6GenJets FastjetJetProducer 2.38419e-05
+TimeModule> 9 1 iterativeCone5GenJets FastjetJetProducer 2.40803e-05
+TimeModule> 9 1 ak5GenJets FastjetJetProducer 2.40803e-05
+TimeModule> 9 1 ak7GenJets FastjetJetProducer 2.38419e-05
+TimeModule> 9 1 genCandidatesForMET InputGenJetsParticleSelector 1.09673e-05
+TimeModule> 9 1 genParticlesForMETAllVisible InputGenJetsParticleSelector 1.09673e-05
+TimeModule> 9 1 genMetCalo METProducer 1.69277e-05
+TimeModule> 9 1 genMetCaloAndNonPrompt METProducer 1.69277e-05
+TimeModule> 9 1 genMetTrue METProducer 1.69277e-05
+TimeModule> 9 1 genMetIC5GenJets METProducer 1.28746e-05
+TimeModule> 9 1 LHCTransport HectorProducer 0.000123978
+ZdcTest: Processing Event Number: 8
+ ZdcTestAnalysis:  Step 1100,0
+ ZdcTestAnalysis:  hd=0 0,DDDWorld,ZDCWorld,Air
+ ZdcTestAnalysis:  Step 400,0
+ ZdcTestAnalysis:   GHD 0: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis: pvtype=0 hd=1 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 2,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMAbsorber,ZDC_EMAbsorber,Tungsten
+ ZdcTestAnalysis:   GHD 1: 1,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+ ZdcTestAnalysis:  Step 0.156733,0
+ ZdcTestAnalysis:   GHD 0: 1,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 1: 2,ZDC,ZDC,Air
+ZdcSDZdcSD: Problem with primaryID **** set by force to TkID **** 1
+ForwardSim ----------------New track------------------------------
+Incident EnergyTrack: 99060 MeV 
+Zdc Cut Energy for Hits: 10000 MeV 
+ZdcSD::getFromLibrary 0 hits for ZDCHITS of 1 with neutron of 99060 MeV
+
+HcalZDCDetID::HcalZDCDetId: id_ 54010021, section: 1, channel: 1 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010022, section: 1, channel: 2 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010023, section: 1, channel: 3 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010024, section: 1, channel: 4 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010025, section: 1, channel: 5 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010081, section: 4, channel: 1 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010082, section: 4, channel: 2 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010083, section: 4, channel: 3 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010084, section: 4, channel: 4 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010085, section: 4, channel: 5 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010086, section: 4, channel: 6 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010087, section: 4, channel: 7 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010088, section: 4, channel: 8 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010089, section: 4, channel: 9 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008a, section: 4, channel: 10 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008b, section: 4, channel: 11 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008c, section: 4, channel: 12 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008d, section: 4, channel: 13 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008e, section: 4, channel: 14 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 5401008f, section: 4, channel: 15 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010090, section: 4, channel: 16 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010041, section: 2, channel: 1 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010042, section: 2, channel: 2 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010043, section: 2, channel: 3 z 0
+HcalZDCDetID::HcalZDCDetId: id_ 54010044, section: 2, channel: 4 z 0
+ForwardSimZdcSD: Final Hit number:0-->New HitID: 1409351713 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 0 New HitEntryPoint: (-38.4,0,-447.775) New IncidentEnergy: 99.06 New HitPosition: (-38.4,0,-140448)
+ForwardSimZdcSD: Final Hit number:1-->New HitID: 1409351714 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 0 New HitEntryPoint: (-19.2,0,-447.775) New IncidentEnergy: 99.06 New HitPosition: (-19.2,0,-140448)
+ForwardSimZdcSD: Final Hit number:2-->New HitID: 1409351715 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 34.663 New HitEntryPoint: (3.8147e-07,0,-447.775) New IncidentEnergy: 99.06 New HitPosition: (3.8147e-07,0,-140448)
+ForwardSimZdcSD: Final Hit number:3-->New HitID: 1409351716 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 0 New HitEntryPoint: (19.2,0,-447.775) New IncidentEnergy: 99.06 New HitPosition: (19.2,0,-140448)
+ForwardSimZdcSD: Final Hit number:4-->New HitID: 1409351717 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 0 New HitEntryPoint: (38.4,0,-447.775) New IncidentEnergy: 99.06 New HitPosition: (38.4,0,-140448)
+ForwardSimZdcSD: Final Hit number:5-->New HitID: 1409351809 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 58.684 New HitEntryPoint: (-12.875,43.125,-353.5) New IncidentEnergy: 99.06 New HitPosition: (-12.875,43.125,-140354)
+ForwardSimZdcSD: Final Hit number:6-->New HitID: 1409351810 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 78.206 New HitEntryPoint: (12.125,43.125,-353.5) New IncidentEnergy: 99.06 New HitPosition: (12.125,43.125,-140354)
+ForwardSimZdcSD: Final Hit number:7-->New HitID: 1409351811 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 84.715 New HitEntryPoint: (37.125,43.125,-353.5) New IncidentEnergy: 99.06 New HitPosition: (37.125,43.125,-140354)
+ForwardSimZdcSD: Final Hit number:8-->New HitID: 1409351812 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 122.229 New HitEntryPoint: (12.5,43.125,-353.5) New IncidentEnergy: 99.06 New HitPosition: (12.5,43.125,-140354)
+ForwardSimZdcSD: Final Hit number:9-->New HitID: 1409351813 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 58.999 New HitEntryPoint: (-12.875,13.125,-353.5) New IncidentEnergy: 99.06 New HitPosition: (-12.875,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:10-->New HitID: 1409351814 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 159.909 New HitEntryPoint: (12.125,13.125,-353.5) New IncidentEnergy: 99.06 New HitPosition: (12.125,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:11-->New HitID: 1409351815 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 130.881 New HitEntryPoint: (37.125,13.125,-353.5) New IncidentEnergy: 99.06 New HitPosition: (37.125,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:12-->New HitID: 1409351816 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 114.924 New HitEntryPoint: (12.5,13.125,-353.5) New IncidentEnergy: 99.06 New HitPosition: (12.5,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:13-->New HitID: 1409351817 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 46.828 New HitEntryPoint: (-12.875,13.125,-353.5) New IncidentEnergy: 99.06 New HitPosition: (-12.875,13.125,-140354)
+ForwardSimZdcSD: Final Hit number:14-->New HitID: 1409351818 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 99.226 New HitEntryPoint: (12.125,-16.875,-353.5) New IncidentEnergy: 99.06 New HitPosition: (12.125,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:15-->New HitID: 1409351819 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 106.363 New HitEntryPoint: (37.125,-16.875,-353.5) New IncidentEnergy: 99.06 New HitPosition: (37.125,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:16-->New HitID: 1409351820 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 53.321 New HitEntryPoint: (12.5,-16.875,-353.5) New IncidentEnergy: 99.06 New HitPosition: (12.5,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:17-->New HitID: 1409351821 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 84.58 New HitEntryPoint: (-12.875,-16.875,-353.5) New IncidentEnergy: 99.06 New HitPosition: (-12.875,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:18-->New HitID: 1409351822 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 171.132 New HitEntryPoint: (12.125,-16.875,-353.5) New IncidentEnergy: 99.06 New HitPosition: (12.125,-16.875,-140354)
+ForwardSimZdcSD: Final Hit number:19-->New HitID: 1409351823 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 155.863 New HitEntryPoint: (37.125,-46.875,-353.5) New IncidentEnergy: 99.06 New HitPosition: (37.125,-46.875,-140354)
+ForwardSimZdcSD: Final Hit number:20-->New HitID: 1409351824 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 53.509 New HitEntryPoint: (12.5,-46.875,-353.5) New IncidentEnergy: 99.06 New HitPosition: (12.5,-46.875,-140354)
+ForwardSimZdcSD: Final Hit number:21-->New HitID: 1409351745 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 29.588 New HitEntryPoint: (0,0,-327) New IncidentEnergy: 99.06 New HitPosition: (0,0,-140327)
+ForwardSimZdcSD: Final Hit number:22-->New HitID: 1409351746 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 16.692 New HitEntryPoint: (0,0,-187.8) New IncidentEnergy: 99.06 New HitPosition: (0,0,-140188)
+ForwardSimZdcSD: Final Hit number:23-->New HitID: 1409351747 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 22.026 New HitEntryPoint: (0,0,-48.6) New IncidentEnergy: 99.06 New HitPosition: (0,0,-140049)
+ForwardSimZdcSD: Final Hit number:24-->New HitID: 1409351748 New Hit trackID: 1 New EM Energy: 0 New HAD Energy: 17.15 New HitEntryPoint: (0,0,90.6) New IncidentEnergy: 99.06 New HitPosition: (0,0,-139909)
+ ZdcTestAnalysis:  Step 0.686567,0
+ ZdcTestAnalysis:   GHD 0: 55,ZDC_EMFiber,ZDC_EMFiber,quartz
+ ZdcTestAnalysis:   GHD 1: 1,ZDC_EMLayer,ZDC_EMLayer,Air
+ ZdcTestAnalysis:   GHD 2: 2,ZDC,ZDC,Air
+
+ZdcTest::upDate(const EndOfEvent * evt) - event #9
+  # of aSteps followed in event = 5
+  ZdcTestAnalysis:  accessed all HC ZdcTestAnalysis:  - theZDCHCid = 0 ZdcTestAnalysis:  - theZDCHC = 0x2afa9b08d400
+Creating ZDCNumberingScheme
+ ZdcTestAnalysis:   theZDCHC has 21 entries
+ ZdcTestAnalysis:  entry #0: fiberID=0x54010023; enEm=0; enHad=34663; hitEnergy=34663z=-140448
+ZDC unpacking: idx:1409351715 -> section 3 layer 4 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  4 fiber 64 channel 0 zside 1idx: 65571
+ZDC packing result after unpacking and repacking: section 3 layer  4 fiber 64 channel 0 zside 1 new idx: 65571
+ZDC unpacking: idx:1409351715 -> section 3 layer 4 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  4 fiber 64 channel 0 zside 1idx: 65571
+ZDC packing result after unpacking and repacking: section 3 layer  4 fiber 64 channel 0 zside 1 new idx: 65571
+ ZdcTestAnalysis:  entry #1: fiberID=0x54010041; enEm=0; enHad=29588; hitEnergy=29588z=-140327
+ZDC unpacking: idx:1409351745 -> section 1 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  8 fiber 64 channel 0 zside 1idx: 65601
+ZDC packing result after unpacking and repacking: section 1 layer  8 fiber 64 channel 0 zside 1 new idx: 65601
+ZDC unpacking: idx:1409351745 -> section 1 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  8 fiber 64 channel 0 zside 1idx: 65601
+ZDC packing result after unpacking and repacking: section 1 layer  8 fiber 64 channel 0 zside 1 new idx: 65601
+ ZdcTestAnalysis:  entry #2: fiberID=0x54010042; enEm=0; enHad=16692; hitEnergy=16692z=-140188
+ZDC unpacking: idx:1409351746 -> section 2 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  8 fiber 64 channel 0 zside 1idx: 65602
+ZDC packing result after unpacking and repacking: section 2 layer  8 fiber 64 channel 0 zside 1 new idx: 65602
+ZDC unpacking: idx:1409351746 -> section 2 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  8 fiber 64 channel 0 zside 1idx: 65602
+ZDC packing result after unpacking and repacking: section 2 layer  8 fiber 64 channel 0 zside 1 new idx: 65602
+ ZdcTestAnalysis:  entry #3: fiberID=0x54010043; enEm=0; enHad=22026; hitEnergy=22026z=-140049
+ZDC unpacking: idx:1409351747 -> section 3 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  8 fiber 64 channel 0 zside 1idx: 65603
+ZDC packing result after unpacking and repacking: section 3 layer  8 fiber 64 channel 0 zside 1 new idx: 65603
+ZDC unpacking: idx:1409351747 -> section 3 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  8 fiber 64 channel 0 zside 1idx: 65603
+ZDC packing result after unpacking and repacking: section 3 layer  8 fiber 64 channel 0 zside 1 new idx: 65603
+ ZdcTestAnalysis:  entry #4: fiberID=0x54010044; enEm=0; enHad=17150; hitEnergy=17150z=-139909
+ZDC unpacking: idx:1409351748 -> section 4 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  8 fiber 64 channel 0 zside 1idx: 65604
+ZDC packing result after unpacking and repacking: section 4 layer  8 fiber 64 channel 0 zside 1 new idx: 65604
+ZDC unpacking: idx:1409351748 -> section 4 layer 8 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  8 fiber 64 channel 0 zside 1idx: 65604
+ZDC packing result after unpacking and repacking: section 4 layer  8 fiber 64 channel 0 zside 1 new idx: 65604
+ ZdcTestAnalysis:  entry #5: fiberID=0x54010081; enEm=0; enHad=58684; hitEnergy=58684z=-140354
+ZDC unpacking: idx:1409351809 -> section 1 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  16 fiber 64 channel 0 zside 1idx: 65665
+ZDC packing result after unpacking and repacking: section 1 layer  16 fiber 64 channel 0 zside 1 new idx: 65665
+ZDC unpacking: idx:1409351809 -> section 1 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  16 fiber 64 channel 0 zside 1idx: 65665
+ZDC packing result after unpacking and repacking: section 1 layer  16 fiber 64 channel 0 zside 1 new idx: 65665
+ ZdcTestAnalysis:  entry #6: fiberID=0x54010082; enEm=0; enHad=78206; hitEnergy=78206z=-140354
+ZDC unpacking: idx:1409351810 -> section 2 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  16 fiber 64 channel 0 zside 1idx: 65666
+ZDC packing result after unpacking and repacking: section 2 layer  16 fiber 64 channel 0 zside 1 new idx: 65666
+ZDC unpacking: idx:1409351810 -> section 2 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  16 fiber 64 channel 0 zside 1idx: 65666
+ZDC packing result after unpacking and repacking: section 2 layer  16 fiber 64 channel 0 zside 1 new idx: 65666
+ ZdcTestAnalysis:  entry #7: fiberID=0x54010083; enEm=0; enHad=84715; hitEnergy=84715z=-140354
+ZDC unpacking: idx:1409351811 -> section 3 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  16 fiber 64 channel 0 zside 1idx: 65667
+ZDC packing result after unpacking and repacking: section 3 layer  16 fiber 64 channel 0 zside 1 new idx: 65667
+ZDC unpacking: idx:1409351811 -> section 3 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  16 fiber 64 channel 0 zside 1idx: 65667
+ZDC packing result after unpacking and repacking: section 3 layer  16 fiber 64 channel 0 zside 1 new idx: 65667
+ ZdcTestAnalysis:  entry #8: fiberID=0x54010084; enEm=0; enHad=122229; hitEnergy=122229z=-140354
+ZDC unpacking: idx:1409351812 -> section 4 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  16 fiber 64 channel 0 zside 1idx: 65668
+ZDC packing result after unpacking and repacking: section 4 layer  16 fiber 64 channel 0 zside 1 new idx: 65668
+ZDC unpacking: idx:1409351812 -> section 4 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  16 fiber 64 channel 0 zside 1idx: 65668
+ZDC packing result after unpacking and repacking: section 4 layer  16 fiber 64 channel 0 zside 1 new idx: 65668
+ ZdcTestAnalysis:  entry #9: fiberID=0x54010085; enEm=0; enHad=58999; hitEnergy=58999z=-140354
+ZDC unpacking: idx:1409351813 -> section 5 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 5 layer  16 fiber 64 channel 0 zside 1idx: 65669
+ZDC packing result after unpacking and repacking: section 5 layer  16 fiber 64 channel 0 zside 1 new idx: 65669
+ZDC unpacking: idx:1409351813 -> section 5 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 5 layer  16 fiber 64 channel 0 zside 1idx: 65669
+ZDC packing result after unpacking and repacking: section 5 layer  16 fiber 64 channel 0 zside 1 new idx: 65669
+ ZdcTestAnalysis:  entry #10: fiberID=0x54010086; enEm=0; enHad=159909; hitEnergy=159909z=-140354
+ZDC unpacking: idx:1409351814 -> section 6 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 6 layer  16 fiber 64 channel 0 zside 1idx: 65670
+ZDC packing result after unpacking and repacking: section 6 layer  16 fiber 64 channel 0 zside 1 new idx: 65670
+ZDC unpacking: idx:1409351814 -> section 6 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 6 layer  16 fiber 64 channel 0 zside 1idx: 65670
+ZDC packing result after unpacking and repacking: section 6 layer  16 fiber 64 channel 0 zside 1 new idx: 65670
+ ZdcTestAnalysis:  entry #11: fiberID=0x54010087; enEm=0; enHad=130881; hitEnergy=130881z=-140354
+ZDC unpacking: idx:1409351815 -> section 7 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 7 layer  16 fiber 64 channel 0 zside 1idx: 65671
+ZDC packing result after unpacking and repacking: section 7 layer  16 fiber 64 channel 0 zside 1 new idx: 65671
+ZDC unpacking: idx:1409351815 -> section 7 layer 16 fiber 64 channel 0 zside 1
+ZDC packing: section 7 layer  16 fiber 64 channel 0 zside 1idx: 65671
+ZDC packing result after unpacking and repacking: section 7 layer  16 fiber 64 channel 0 zside 1 new idx: 65671
+ ZdcTestAnalysis:  entry #12: fiberID=0x54010088; enEm=0; enHad=114924; hitEnergy=114924z=-140354
+ZDC unpacking: idx:1409351816 -> section 0 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 0 layer  17 fiber 64 channel 0 zside 1idx: 65672
+ZDC packing result after unpacking and repacking: section 0 layer  17 fiber 64 channel 0 zside 1 new idx: 65672
+ZDC unpacking: idx:1409351816 -> section 0 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 0 layer  17 fiber 64 channel 0 zside 1idx: 65672
+ZDC packing result after unpacking and repacking: section 0 layer  17 fiber 64 channel 0 zside 1 new idx: 65672
+ ZdcTestAnalysis:  entry #13: fiberID=0x54010089; enEm=0; enHad=46828; hitEnergy=46828z=-140354
+ZDC unpacking: idx:1409351817 -> section 1 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  17 fiber 64 channel 0 zside 1idx: 65673
+ZDC packing result after unpacking and repacking: section 1 layer  17 fiber 64 channel 0 zside 1 new idx: 65673
+ZDC unpacking: idx:1409351817 -> section 1 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 1 layer  17 fiber 64 channel 0 zside 1idx: 65673
+ZDC packing result after unpacking and repacking: section 1 layer  17 fiber 64 channel 0 zside 1 new idx: 65673
+ ZdcTestAnalysis:  entry #14: fiberID=0x5401008a; enEm=0; enHad=99226; hitEnergy=99226z=-140354
+ZDC unpacking: idx:1409351818 -> section 2 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  17 fiber 64 channel 0 zside 1idx: 65674
+ZDC packing result after unpacking and repacking: section 2 layer  17 fiber 64 channel 0 zside 1 new idx: 65674
+ZDC unpacking: idx:1409351818 -> section 2 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 2 layer  17 fiber 64 channel 0 zside 1idx: 65674
+ZDC packing result after unpacking and repacking: section 2 layer  17 fiber 64 channel 0 zside 1 new idx: 65674
+ ZdcTestAnalysis:  entry #15: fiberID=0x5401008b; enEm=0; enHad=106363; hitEnergy=106363z=-140354
+ZDC unpacking: idx:1409351819 -> section 3 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  17 fiber 64 channel 0 zside 1idx: 65675
+ZDC packing result after unpacking and repacking: section 3 layer  17 fiber 64 channel 0 zside 1 new idx: 65675
+ZDC unpacking: idx:1409351819 -> section 3 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 3 layer  17 fiber 64 channel 0 zside 1idx: 65675
+ZDC packing result after unpacking and repacking: section 3 layer  17 fiber 64 channel 0 zside 1 new idx: 65675
+ ZdcTestAnalysis:  entry #16: fiberID=0x5401008c; enEm=0; enHad=53321; hitEnergy=53321z=-140354
+ZDC unpacking: idx:1409351820 -> section 4 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  17 fiber 64 channel 0 zside 1idx: 65676
+ZDC packing result after unpacking and repacking: section 4 layer  17 fiber 64 channel 0 zside 1 new idx: 65676
+ZDC unpacking: idx:1409351820 -> section 4 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 4 layer  17 fiber 64 channel 0 zside 1idx: 65676
+ZDC packing result after unpacking and repacking: section 4 layer  17 fiber 64 channel 0 zside 1 new idx: 65676
+ ZdcTestAnalysis:  entry #17: fiberID=0x5401008d; enEm=0; enHad=84580; hitEnergy=84580z=-140354
+ZDC unpacking: idx:1409351821 -> section 5 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 5 layer  17 fiber 64 channel 0 zside 1idx: 65677
+ZDC packing result after unpacking and repacking: section 5 layer  17 fiber 64 channel 0 zside 1 new idx: 65677
+ZDC unpacking: idx:1409351821 -> section 5 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 5 layer  17 fiber 64 channel 0 zside 1idx: 65677
+ZDC packing result after unpacking and repacking: section 5 layer  17 fiber 64 channel 0 zside 1 new idx: 65677
+ ZdcTestAnalysis:  entry #18: fiberID=0x5401008e; enEm=0; enHad=171132; hitEnergy=171132z=-140354
+ZDC unpacking: idx:1409351822 -> section 6 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 6 layer  17 fiber 64 channel 0 zside 1idx: 65678
+ZDC packing result after unpacking and repacking: section 6 layer  17 fiber 64 channel 0 zside 1 new idx: 65678
+ZDC unpacking: idx:1409351822 -> section 6 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 6 layer  17 fiber 64 channel 0 zside 1idx: 65678
+ZDC packing result after unpacking and repacking: section 6 layer  17 fiber 64 channel 0 zside 1 new idx: 65678
+ ZdcTestAnalysis:  entry #19: fiberID=0x5401008f; enEm=0; enHad=155863; hitEnergy=155863z=-140354
+ZDC unpacking: idx:1409351823 -> section 7 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 7 layer  17 fiber 64 channel 0 zside 1idx: 65679
+ZDC packing result after unpacking and repacking: section 7 layer  17 fiber 64 channel 0 zside 1 new idx: 65679
+ZDC unpacking: idx:1409351823 -> section 7 layer 17 fiber 64 channel 0 zside 1
+ZDC packing: section 7 layer  17 fiber 64 channel 0 zside 1idx: 65679
+ZDC packing result after unpacking and repacking: section 7 layer  17 fiber 64 channel 0 zside 1 new idx: 65679
+ ZdcTestAnalysis:  entry #20: fiberID=0x54010090; enEm=0; enHad=53509; hitEnergy=53509z=-140354
+ZDC unpacking: idx:1409351824 -> section 0 layer 18 fiber 64 channel 0 zside 1
+ZDC packing: section 0 layer  18 fiber 64 channel 0 zside 1idx: 65680
+ZDC packing result after unpacking and repacking: section 0 layer  18 fiber 64 channel 0 zside 1 new idx: 65680
+ZDC unpacking: idx:1409351824 -> section 0 layer 18 fiber 64 channel 0 zside 1
+ZDC packing: section 0 layer  18 fiber 64 channel 0 zside 1idx: 65680
+ZDC packing result after unpacking and repacking: section 0 layer  18 fiber 64 channel 0 zside 1 new idx: 65680
+ ZdcTestAnalysis:  Event has 2 vertex
+ ZdcTestAnalysis: Vertex number :0
+ ZdcTestAnalysis: Vertex number :1
+  ZdcTestAnalysis:  Event 9
+%MSG-i CaloSim:  OscarProducer:g4SimHits 19-Dec-2013 11:11:35 EST  Run: 1 Event: 9
+CaloSD: ZDCHITS store 21 hits recorded with 0 track IDs not given properly and 4 hits not passing cuts
+%MSG
+TimeModule> 9 1 g4SimHits OscarProducer 0.00113106
+TimeModule> 9 1 MEtoEDMConverter MEtoEDMConverter 7.86781e-06
+TimeModule> 9 1 TriggerResults TriggerResultInserter 1.3113e-05
+TimeModule> 9 1 output PoolOutputModule 0.00388598
+%MSG-w MemoryCheck:  PostProcessPath 19-Dec-2013 11:11:35 EST Run: 1 Event: 9
+MemoryCheck: event : VSIZE 535.988 0 RSS 258.516 0
+
+%MSG
+TimeEvent> 9 1 0.00649786 0.005999 0.074988
+Begin processing the 10th record. Run 1, Event 10, LumiSection 1 at 19-Dec-2013 11:11:35.199 EST
+TimeModule> 10 1 generator FlatRandomEGunProducer 1.81198e-05
+TimeModule> 10 1 randomEngineStateProducer RandomEngineStateProducer 6.69956e-05
+TimeModule> 10 1 VtxSmeared FlatEvtVtxGenerator 1.00136e-05
+TimeModule> 10 1 genParticles GenParticleProducer 1.38283e-05
+TimeModule> 10 1 genParticlesForJets InputGenJetsParticleSelector 1.21593e-05
+TimeModule> 10 1 kt4GenJets FastjetJetProducer 2.88486e-05
+TimeModule> 10 1 kt6GenJets FastjetJetProducer 2.5034e-05
+TimeModule> 10 1 iterativeCone5GenJets FastjetJetProducer 2.40803e-05
+TimeModule> 10 1 ak5GenJets FastjetJetProducer 2.40803e-05
+TimeModule> 10 1 ak7GenJets FastjetJetProducer 2.40803e-05
+TimeModule> 10 1 genCandidatesForMET InputGenJetsParticleSelector 1.09673e-05
+TimeModule> 10 1 genParticlesForMETAllVisible InputGenJetsParticleSelector 1.00136e-05
+TimeModule> 10 1 genMetCalo METProducer 1.69277e-05
+TimeModule> 10 1 genMetCaloAndNonPrompt METProducer 1.5974e-05
+TimeModule> 10 1 genMetTrue METProducer 1.69277e-05
+TimeModule> 10 1 genMetIC5GenJets METProducer 1.71661e-05
+TimeModule> 10 1 LHCTransport HectorProducer 0.000216007
+ZdcTest: Processing Event Number: 9
+
+ZdcTest::upDate(const EndOfEvent * evt) - event #10
+  # of aSteps followed in event = 0
+  ZdcTestAnalysis:  accessed all HC ZdcTestAnalysis:  - theZDCHCid = 0 ZdcTestAnalysis:  - theZDCHC = 0x2afa9b08d400
+Creating ZDCNumberingScheme
+ ZdcTestAnalysis:   theZDCHC has 0 entries
+  ZdcTestAnalysis:  Event 10
+%MSG-i CaloSim:  OscarProducer:g4SimHits 19-Dec-2013 11:11:35 EST  Run: 1 Event: 10
+CaloSD: ZDCHITS store 0 hits recorded with 0 track IDs not given properly and 0 hits not passing cuts
+%MSG
+TimeModule> 10 1 g4SimHits OscarProducer 0.000164986
+TimeModule> 10 1 MEtoEDMConverter MEtoEDMConverter 4.05312e-06
+TimeModule> 10 1 TriggerResults TriggerResultInserter 1.3113e-05
+TimeModule> 10 1 output PoolOutputModule 0.00393295
+%MSG-w MemoryCheck:  PostProcessPath 19-Dec-2013 11:11:35 EST Run: 1 Event: 10
+MemoryCheck: event : VSIZE 535.988 0 RSS 258.516 0
+
+%MSG
+TimeEvent> 10 1 0.00566602 0.004999 0.079987
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 10 passed = 10 failed = 0
+
+TrigReport ---------- Path   Summary ------------
+TrigReport  Trig Bit#        Run     Passed     Failed      Error Name
+TrigReport     1    0         10         10          0          0 generation_step
+TrigReport     1    1         10         10          0          0 simulation_step
+TrigReport     1    2         10         10          0          0 endjob_step
+
+TrigReport -------End-Path   Summary ------------
+TrigReport  Trig Bit#        Run     Passed     Failed      Error Name
+TrigReport     0    0         10         10          0          0 out_step
+
+TrigReport ---------- Modules in Path: generation_step ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0         10         10          0          0 generator
+TrigReport     1    0         10         10          0          0 randomEngineStateProducer
+TrigReport     1    0         10         10          0          0 VtxSmeared
+TrigReport     1    0         10         10          0          0 genParticles
+TrigReport     1    0         10         10          0          0 genParticlesForJets
+TrigReport     1    0         10         10          0          0 kt4GenJets
+TrigReport     1    0         10         10          0          0 kt6GenJets
+TrigReport     1    0         10         10          0          0 iterativeCone5GenJets
+TrigReport     1    0         10         10          0          0 ak5GenJets
+TrigReport     1    0         10         10          0          0 ak7GenJets
+TrigReport     1    0         10         10          0          0 genCandidatesForMET
+TrigReport     1    0         10         10          0          0 genParticlesForMETAllVisible
+TrigReport     1    0         10         10          0          0 genMetCalo
+TrigReport     1    0         10         10          0          0 genMetCaloAndNonPrompt
+TrigReport     1    0         10         10          0          0 genMetTrue
+TrigReport     1    0         10         10          0          0 genMetIC5GenJets
+
+TrigReport ---------- Modules in Path: simulation_step ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    1         10         10          0          0 randomEngineStateProducer
+TrigReport     1    1         10         10          0          0 LHCTransport
+TrigReport     1    1         10         10          0          0 g4SimHits
+
+TrigReport ---------- Modules in Path: endjob_step ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    2         10         10          0          0 MEtoEDMConverter
+
+TrigReport ------ Modules in End-Path: out_step ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     0    0         10         10          0          0 output
+
+TrigReport ---------- Module Summary ------------
+TrigReport    Visited        Run     Passed     Failed      Error Name
+TrigReport         10         10         10          0          0 generator
+TrigReport         20         10         10          0          0 randomEngineStateProducer
+TrigReport         10         10         10          0          0 VtxSmeared
+TrigReport         10         10         10          0          0 genParticles
+TrigReport         10         10         10          0          0 genParticlesForJets
+TrigReport         10         10         10          0          0 kt4GenJets
+TrigReport         10         10         10          0          0 kt6GenJets
+TrigReport         10         10         10          0          0 iterativeCone5GenJets
+TrigReport         10         10         10          0          0 ak5GenJets
+TrigReport         10         10         10          0          0 ak7GenJets
+TrigReport         10         10         10          0          0 genCandidatesForMET
+TrigReport         10         10         10          0          0 genParticlesForMETAllVisible
+TrigReport         10         10         10          0          0 genMetCalo
+TrigReport         10         10         10          0          0 genMetCaloAndNonPrompt
+TrigReport         10         10         10          0          0 genMetTrue
+TrigReport         10         10         10          0          0 genMetIC5GenJets
+TrigReport         10         10         10          0          0 LHCTransport
+TrigReport         10         10         10          0          0 g4SimHits
+TrigReport         10         10         10          0          0 MEtoEDMConverter
+TrigReport         10         10         10          0          0 TriggerResults
+TrigReport         10         10         10          0          0 output
+
+TimeReport ---------- Event  Summary ---[sec]----
+TimeReport CPU/event = 0.007899 Real/event = 0.008014
+
+TimeReport ---------- Path   Summary ---[sec]----
+TimeReport             per event          per path-run 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.001400   0.001344   0.001400   0.001344 generation_step
+TimeReport   0.001900   0.001899   0.001900   0.001899 simulation_step
+TimeReport   0.000000   0.000047   0.000000   0.000047 endjob_step
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event          per path-run 
+
+TimeReport -------End-Path   Summary ---[sec]----
+TimeReport             per event       per endpath-run 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.004599   0.004656   0.004599   0.004656 out_step
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event       per endpath-run 
+
+TimeReport ---------- Modules in Path: generation_step ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000200   0.000118   0.000200   0.000118 generator
+TimeReport   0.000100   0.000123   0.000100   0.000123 randomEngineStateProducer
+TimeReport   0.000000   0.000079   0.000000   0.000079 VtxSmeared
+TimeReport   0.000100   0.000099   0.000100   0.000099 genParticles
+TimeReport   0.000000   0.000084   0.000000   0.000084 genParticlesForJets
+TimeReport   0.000200   0.000156   0.000200   0.000156 kt4GenJets
+TimeReport   0.000200   0.000070   0.000200   0.000070 kt6GenJets
+TimeReport   0.000100   0.000077   0.000100   0.000077 iterativeCone5GenJets
+TimeReport   0.000000   0.000067   0.000000   0.000067 ak5GenJets
+TimeReport   0.000000   0.000067   0.000000   0.000067 ak7GenJets
+TimeReport   0.000000   0.000053   0.000000   0.000053 genCandidatesForMET
+TimeReport   0.000000   0.000051   0.000000   0.000051 genParticlesForMETAllVisible
+TimeReport   0.000100   0.000076   0.000100   0.000076 genMetCalo
+TimeReport   0.000000   0.000059   0.000000   0.000059 genMetCaloAndNonPrompt
+TimeReport   0.000300   0.000063   0.000300   0.000063 genMetTrue
+TimeReport   0.000100   0.000081   0.000100   0.000081 genMetIC5GenJets
+
+TimeReport ---------- Modules in Path: simulation_step ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000001   0.000000   0.000001 randomEngineStateProducer
+TimeReport   0.000300   0.000449   0.000300   0.000449 LHCTransport
+TimeReport   0.001600   0.001444   0.001600   0.001444 g4SimHits
+
+TimeReport ---------- Modules in Path: endjob_step ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000045   0.000000   0.000045 MEtoEDMConverter
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event      per module-visit 
+
+TimeReport ------ Modules in End-Path: out_step ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.004599   0.004653   0.004599   0.004653 output
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event      per module-visit 
+
+TimeReport ---------- Module Summary ---[sec]----
+TimeReport             per event        per module-run      per module-visit 
+TimeReport        CPU       Real        CPU       Real        CPU       Real Name
+TimeReport   0.000200   0.000118   0.000200   0.000118   0.000200   0.000118 generator
+TimeReport   0.000100   0.000124   0.000100   0.000124   0.000050   0.000062 randomEngineStateProducer
+TimeReport   0.000000   0.000079   0.000000   0.000079   0.000000   0.000079 VtxSmeared
+TimeReport   0.000100   0.000099   0.000100   0.000099   0.000100   0.000099 genParticles
+TimeReport   0.000000   0.000084   0.000000   0.000084   0.000000   0.000084 genParticlesForJets
+TimeReport   0.000200   0.000156   0.000200   0.000156   0.000200   0.000156 kt4GenJets
+TimeReport   0.000200   0.000070   0.000200   0.000070   0.000200   0.000070 kt6GenJets
+TimeReport   0.000100   0.000077   0.000100   0.000077   0.000100   0.000077 iterativeCone5GenJets
+TimeReport   0.000000   0.000067   0.000000   0.000067   0.000000   0.000067 ak5GenJets
+TimeReport   0.000000   0.000067   0.000000   0.000067   0.000000   0.000067 ak7GenJets
+TimeReport   0.000000   0.000053   0.000000   0.000053   0.000000   0.000053 genCandidatesForMET
+TimeReport   0.000000   0.000051   0.000000   0.000051   0.000000   0.000051 genParticlesForMETAllVisible
+TimeReport   0.000100   0.000076   0.000100   0.000076   0.000100   0.000076 genMetCalo
+TimeReport   0.000000   0.000059   0.000000   0.000059   0.000000   0.000059 genMetCaloAndNonPrompt
+TimeReport   0.000300   0.000063   0.000300   0.000063   0.000300   0.000063 genMetTrue
+TimeReport   0.000100   0.000081   0.000100   0.000081   0.000100   0.000081 genMetIC5GenJets
+TimeReport   0.000300   0.000449   0.000300   0.000449   0.000300   0.000449 LHCTransport
+TimeReport   0.001600   0.001444   0.001600   0.001444   0.001600   0.001444 g4SimHits
+TimeReport   0.000000   0.000045   0.000000   0.000045   0.000000   0.000045 MEtoEDMConverter
+TimeReport   0.000000   0.000056   0.000000   0.000056   0.000000   0.000056 TriggerResults
+TimeReport   0.004599   0.004653   0.004599   0.004653   0.004599   0.004653 output
+TimeReport        CPU       Real        CPU       Real        CPU       Real Name
+TimeReport             per event        per module-run      per module-visit 
+
+T---Report end!
+
+MemoryReport> Peak virtual size 535.988 Mbytes
+ Key events increasing vsize: 
+[0] run: 0 lumi: 0 event: 0  vsize = 0 deltaVsize = 0 rss = 0 delta = 0
+[1] run: 1 lumi: 1 event: 1  vsize = 535.488 deltaVsize = 0 rss = 258.051 delta = 0
+[2] run: 1 lumi: 1 event: 2  vsize = 535.738 deltaVsize = 0.25 rss = 258.363 delta = 0.3125
+[6] run: 1 lumi: 1 event: 6  vsize = 535.988 deltaVsize = 0.25 rss = 258.508 delta = 0.144531
+[0] run: 0 lumi: 0 event: 0  vsize = 0 deltaVsize = 0 rss = 0 delta = 0
+[8] run: 1 lumi: 1 event: 8  vsize = 535.988 deltaVsize = 0 rss = 258.512 delta = 0.00390625
+[7] run: 1 lumi: 1 event: 7  vsize = 535.988 deltaVsize = 0 rss = 258.512 delta = 0.00390625
+[6] run: 1 lumi: 1 event: 6  vsize = 535.988 deltaVsize = 0.25 rss = 258.508 delta = 0.144531
+TimeReport> Time report complete in 2.6201 seconds
+ Time Summary: 
+ - Min event:   0.00549483
+ - Max event:   0.026257
+ - Avg event:   0.26201
+ - Total job:   2.6201
+ CPU Summary: 
+ - Min event:   0.004999
+ - Max event:   0.024996
+ - Avg event:   0.0079987
+ - Total job:   2.45063
+ - Total event: 0.079987
+
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 MemoryCheck          -w PostProcessPath                       10       10
+    2 TimeEvent            -w PostProcessPath                       10       10
+    3 TimeModule           -w FastjetJetProduc                      10       10
+    4 TimeModule           -w FastjetJetProduc                      10       10
+    5 TimeModule           -w FastjetJetProduc                      10       10
+    6 TimeModule           -w FastjetJetProduc                      10       10
+    7 TimeModule           -w FastjetJetProduc                      10       10
+    8 TimeModule           -w FlatEvtVtxGenera                      10       10
+    9 TimeModule           -w FlatRandomEGunPr                      10       10
+   10 TimeModule           -w GenParticleProdu                      10       10
+   11 TimeModule           -w HectorProducer:L                      10       10
+   12 TimeModule           -w InputGenJetsPart                      10       10
+   13 TimeModule           -w InputGenJetsPart                      10       10
+   14 TimeModule           -w InputGenJetsPart                      10       10
+   15 TimeModule           -w METProducer:genM                      10       10
+   16 TimeModule           -w METProducer:genM                      10       10
+   17 TimeModule           -w METProducer:genM                      10       10
+   18 TimeModule           -w METProducer:genM                      10       10
+   19 TimeModule           -w MEtoEDMConverter                      10       10
+   20 TimeModule           -w OscarProducer:g4                      10       10
+   21 TimeModule           -w PoolOutputModule                      10       10
+   22 TimeModule           -w RandomEngineStat                      10       10
+   23 TimeModule           -w TriggerResultIns                      10       10
+   24 Specific             -e OscarProducer:g4                       1        1
+   25 TimeReport           -e AfterBeginJob                          1        1
+   26 TimeReport           -e AfterModEndJob                         1        1
+   27 MemoryReport         -s AfterModEndJob                         1        1
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 MemoryCheck          1/1              1/2              1/10
+    2 TimeEvent            1/1              1/2              1/10
+    3 TimeModule           1/1              1/2              1/10
+    4 TimeModule           1/1              1/2              1/10
+    5 TimeModule           1/1              1/2              1/10
+    6 TimeModule           1/1              1/2              1/10
+    7 TimeModule           1/1              1/2              1/10
+    8 TimeModule           1/1              1/2              1/10
+    9 TimeModule           1/1              1/2              1/10
+   10 TimeModule           1/1              1/2              1/10
+   11 TimeModule           1/1              1/2              1/10
+   12 TimeModule           1/1              1/2              1/10
+   13 TimeModule           1/1              1/2              1/10
+   14 TimeModule           1/1              1/2              1/10
+   15 TimeModule           1/1              1/2              1/10
+   16 TimeModule           1/1              1/2              1/10
+   17 TimeModule           1/1              1/2              1/10
+   18 TimeModule           1/1              1/2              1/10
+   19 TimeModule           1/1              1/2              1/10
+   20 TimeModule           1/1              1/2              1/10
+   21 TimeModule           1/1              1/2              1/10
+   22 TimeModule           1/1              1/2              1/10
+   23 TimeModule           1/1              1/2              1/10
+   24 Specific             Run: 1                            
+   25 TimeReport           BeforeEvents                      
+   26 TimeReport           PostEndRun                        
+   27 MemoryReport         PostEndRun                        
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning               230                 230
+Error                   3                   3
+System                  1                   1
+ForwardSimend of ZdcSD
+
+ZdcTestAnalysis: Ntuple step  written for event: 10
+ZdcTestAnalysis: Step file closed
+ZdcTestAnalysis: Ntuple event written for event: 10
+ZdcTestAnalysis: Event file closed
+
+ZdcTestAnalysis Dextructor  -------->  End of ZdcTestAnalysis : 
+
+ZdcTestAnalysis: End of process
